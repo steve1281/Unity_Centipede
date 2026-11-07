@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f93621bbaff7c6942998001576ef7172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Centipede.GameManager
-  spacerPrefab: {fileID: 1621540011989847301, guid: 77968a08109d6f04293278d0d88f4d16, type: 3}
+  spacerPrefab: {fileID: 1621540011989847301, guid: 9c181888b1e76c94a853e575c40931ad, type: 3}
 --- !u!4 &1917139946
 Transform:
   m_ObjectHideFlags: 0

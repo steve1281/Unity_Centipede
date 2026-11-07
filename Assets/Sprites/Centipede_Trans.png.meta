@@ -1,0 +1,3798 @@
+fileFormatVersion: 2
+guid: 08026d0f232cfaf4eb346bd34e71e237
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3315182564435352893
+    second: Centipede_Trans_0
+  - first:
+      213: -9223253815135246386
+    second: Centipede_Trans_1
+  - first:
+      213: 1086302453028704919
+    second: Centipede_Trans_2
+  - first:
+      213: -3239287329360405694
+    second: Centipede_Trans_3
+  - first:
+      213: 7080701029027870615
+    second: Centipede_Trans_4
+  - first:
+      213: 7613881351126540632
+    second: Centipede_Trans_5
+  - first:
+      213: -6385513679087216263
+    second: Centipede_Trans_6
+  - first:
+      213: -9083509695348446369
+    second: Centipede_Trans_7
+  - first:
+      213: -803188748787077480
+    second: Centipede_Trans_8
+  - first:
+      213: 4165605017981393777
+    second: Centipede_Trans_9
+  - first:
+      213: -1591159819975024522
+    second: Centipede_Trans_10
+  - first:
+      213: 5469613468633591259
+    second: Centipede_Trans_11
+  - first:
+      213: -3445830763450199006
+    second: Centipede_Trans_12
+  - first:
+      213: -703206403055117575
+    second: Centipede_Trans_13
+  - first:
+      213: 2508428023332100357
+    second: Centipede_Trans_14
+  - first:
+      213: 8998542579542824776
+    second: Centipede_Trans_15
+  - first:
+      213: -5802735655664052789
+    second: Centipede_Trans_16
+  - first:
+      213: -9159789445714649909
+    second: Centipede_Trans_17
+  - first:
+      213: 9055457432458544722
+    second: Centipede_Trans_18
+  - first:
+      213: 1152528493737006004
+    second: Centipede_Trans_19
+  - first:
+      213: -4386561268194580085
+    second: Centipede_Trans_20
+  - first:
+      213: -3850687333203792921
+    second: Centipede_Trans_21
+  - first:
+      213: -7177568637183680152
+    second: Centipede_Trans_22
+  - first:
+      213: 8519281158809191386
+    second: Centipede_Trans_23
+  - first:
+      213: 350613656419053956
+    second: Centipede_Trans_24
+  - first:
+      213: -6566724848216979218
+    second: Centipede_Trans_25
+  - first:
+      213: -6721643847031007849
+    second: Centipede_Trans_26
+  - first:
+      213: 6312950824461527992
+    second: Centipede_Trans_27
+  - first:
+      213: -784285432930085400
+    second: Centipede_Trans_28
+  - first:
+      213: 8485552279830565436
+    second: Centipede_Trans_29
+  - first:
+      213: -7173602470344371254
+    second: Centipede_Trans_30
+  - first:
+      213: -1844648656577610640
+    second: Centipede_Trans_31
+  - first:
+      213: 5397227113815307782
+    second: Centipede_Trans_32
+  - first:
+      213: -4594904684573366144
+    second: Centipede_Trans_33
+  - first:
+      213: -6738426944726736519
+    second: Centipede_Trans_34
+  - first:
+      213: 5515282042895570079
+    second: Centipede_Trans_35
+  - first:
+      213: -1679238958856403461
+    second: Centipede_Trans_36
+  - first:
+      213: -9022928849579594799
+    second: Centipede_Trans_37
+  - first:
+      213: 1981581959403845119
+    second: Centipede_Trans_38
+  - first:
+      213: 8838214975360388571
+    second: Centipede_Trans_39
+  - first:
+      213: -8316385146854449633
+    second: Centipede_Trans_40
+  - first:
+      213: -8536451809498393673
+    second: Centipede_Trans_41
+  - first:
+      213: 8116626064803958163
+    second: Centipede_Trans_42
+  - first:
+      213: 3950797701030075296
+    second: Centipede_Trans_43
+  - first:
+      213: -1129591014330593588
+    second: Centipede_Trans_44
+  - first:
+      213: -5462575443597535282
+    second: Centipede_Trans_45
+  - first:
+      213: -340302715539525305
+    second: Centipede_Trans_46
+  - first:
+      213: 8972984960676003543
+    second: Centipede_Trans_47
+  - first:
+      213: -4398240829443002654
+    second: Centipede_Trans_48
+  - first:
+      213: -4668841485837148850
+    second: Centipede_Trans_49
+  - first:
+      213: -3363207201776958032
+    second: Centipede_Trans_50
+  - first:
+      213: 8862310106999189540
+    second: Centipede_Trans_51
+  - first:
+      213: -4045310000074858177
+    second: Centipede_Trans_52
+  - first:
+      213: -2980363768962850416
+    second: Centipede_Trans_53
+  - first:
+      213: 1400586048082372795
+    second: Centipede_Trans_54
+  - first:
+      213: 8408278561415371473
+    second: Centipede_Trans_55
+  - first:
+      213: -22586434980280332
+    second: Centipede_Trans_56
+  - first:
+      213: -3079732890388150485
+    second: Centipede_Trans_57
+  - first:
+      213: 4890843984220184707
+    second: Centipede_Trans_58
+  - first:
+      213: -881880628922487738
+    second: Centipede_Trans_59
+  - first:
+      213: -3459734799672609251
+    second: Centipede_Trans_60
+  - first:
+      213: -7865319824992548984
+    second: Centipede_Trans_61
+  - first:
+      213: 8374771200837189890
+    second: Centipede_Trans_62
+  - first:
+      213: -2118370810791664646
+    second: Centipede_Trans_63
+  - first:
+      213: 35123140139720818
+    second: Centipede_Trans_64
+  - first:
+      213: 6238948114246300428
+    second: Centipede_Trans_65
+  - first:
+      213: 4121119305618647116
+    second: Centipede_Trans_66
+  - first:
+      213: 1296264701638408680
+    second: Centipede_Trans_67
+  - first:
+      213: -6220435787955845908
+    second: Centipede_Trans_68
+  - first:
+      213: 8227905910865808529
+    second: Centipede_Trans_69
+  - first:
+      213: 6288318055924909302
+    second: Centipede_Trans_70
+  - first:
+      213: 8846918469833716583
+    second: Centipede_Trans_71
+  - first:
+      213: 3038166769801853402
+    second: Centipede_Trans_72
+  - first:
+      213: 4403745347886208033
+    second: Centipede_Trans_73
+  - first:
+      213: 2014361426264335557
+    second: Centipede_Trans_74
+  - first:
+      213: 4332669544977563081
+    second: Centipede_Trans_75
+  - first:
+      213: -7079807149497443043
+    second: Centipede_Trans_76
+  - first:
+      213: -4755685736028857199
+    second: Centipede_Trans_77
+  - first:
+      213: -4257774732636276207
+    second: Centipede_Trans_78
+  - first:
+      213: -6198996608933183349
+    second: Centipede_Trans_79
+  - first:
+      213: -8747594901204973496
+    second: Centipede_Trans_80
+  - first:
+      213: 6298862212886703531
+    second: Centipede_Trans_81
+  - first:
+      213: -339327921702117214
+    second: Centipede_Trans_82
+  - first:
+      213: 2647243036266820202
+    second: Centipede_Trans_83
+  - first:
+      213: -1278229085539886941
+    second: Centipede_Trans_84
+  - first:
+      213: -5138655071135103535
+    second: Centipede_Trans_85
+  - first:
+      213: -4080835236033400096
+    second: Centipede_Trans_86
+  - first:
+      213: -2646951905331746229
+    second: Centipede_Trans_87
+  - first:
+      213: 4294607057431279290
+    second: Centipede_Trans_88
+  - first:
+      213: 1921279319174137565
+    second: Centipede_Trans_89
+  - first:
+      213: 6221337185814631426
+    second: Centipede_Trans_90
+  - first:
+      213: -4225435550358060911
+    second: Centipede_Trans_91
+  - first:
+      213: -2481726642947778971
+    second: Centipede_Trans_92
+  - first:
+      213: 8571112294570104283
+    second: Centipede_Trans_93
+  - first:
+      213: 1170238862894380505
+    second: Centipede_Trans_94
+  - first:
+      213: -3718362693646212816
+    second: Centipede_Trans_95
+  - first:
+      213: -5027041358515068628
+    second: Centipede_Trans_96
+  - first:
+      213: 2421577249009182392
+    second: Centipede_Trans_97
+  - first:
+      213: 9034590865452609734
+    second: Centipede_Trans_98
+  - first:
+      213: 3827398970079173828
+    second: Centipede_Trans_99
+  - first:
+      213: -1900208405325521486
+    second: Centipede_Trans_100
+  - first:
+      213: 7908750203058648885
+    second: Centipede_Trans_101
+  - first:
+      213: 1693858744833602755
+    second: Centipede_Trans_102
+  - first:
+      213: 1534338321134040684
+    second: Centipede_Trans_103
+  - first:
+      213: 1875489883351024198
+    second: Centipede_Trans_104
+  - first:
+      213: -7829837330864777349
+    second: Centipede_Trans_105
+  - first:
+      213: 1197004277912974720
+    second: Centipede_Trans_106
+  - first:
+      213: 7440157446062386660
+    second: Centipede_Trans_107
+  - first:
+      213: 2571705690759844809
+    second: Centipede_Trans_108
+  - first:
+      213: 4182141787497075817
+    second: Centipede_Trans_109
+  - first:
+      213: 6974988599786824893
+    second: Centipede_Trans_110
+  - first:
+      213: 867558684440886039
+    second: Centipede_Trans_111
+  - first:
+      213: 4090374376884421153
+    second: Centipede_Trans_112
+  - first:
+      213: -6223208968476688102
+    second: Centipede_Trans_113
+  - first:
+      213: -2381998320077269015
+    second: Centipede_Trans_114
+  - first:
+      213: 814278831368226580
+    second: Centipede_Trans_115
+  - first:
+      213: -8900187834555779960
+    second: Centipede_Trans_116
+  - first:
+      213: 5407018936028569451
+    second: Centipede_Trans_117
+  - first:
+      213: -4487471576500721402
+    second: Centipede_Trans_118
+  - first:
+      213: 8252818770633543291
+    second: Centipede_Trans_119
+  - first:
+      213: -4687031692614717138
+    second: Centipede_Trans_120
+  - first:
+      213: -369445001805543691
+    second: Centipede_Trans_121
+  - first:
+      213: 4023371024019557247
+    second: Centipede_Trans_122
+  - first:
+      213: 5208357867804440574
+    second: Centipede_Trans_123
+  - first:
+      213: 3901964069422796901
+    second: Centipede_Trans_124
+  - first:
+      213: -7292846011782473331
+    second: Centipede_Trans_125
+  - first:
+      213: 4294961594770842954
+    second: Centipede_Trans_126
+  - first:
+      213: 6077258740530078941
+    second: Centipede_Trans_127
+  - first:
+      213: 4154908004318180148
+    second: Centipede_Trans_128
+  - first:
+      213: 4126832315676016835
+    second: Centipede_Trans_129
+  - first:
+      213: 3785515480677895129
+    second: Centipede_Trans_130
+  - first:
+      213: -890916822697775920
+    second: Centipede_Trans_131
+  - first:
+      213: -2061805850674546826
+    second: Centipede_Trans_132
+  - first:
+      213: 9176863387863207874
+    second: Centipede_Trans_133
+  - first:
+      213: -333260215266094976
+    second: Centipede_Trans_134
+  - first:
+      213: -2621042693492215879
+    second: Centipede_Trans_135
+  - first:
+      213: 6903212790801598787
+    second: Centipede_Trans_136
+  - first:
+      213: 3846048522886818680
+    second: Centipede_Trans_137
+  - first:
+      213: 4827287756342557404
+    second: Centipede_Trans_138
+  - first:
+      213: 5034352559009093762
+    second: Centipede_Trans_139
+  - first:
+      213: -866379143926767991
+    second: Centipede_Trans_140
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Centipede_Trans_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 324
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ddcbe4af4e10e20800000000000000
+      internalID: 3315182564435352893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 324
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7e893a58b600080800000000000000
+      internalID: -9223253815135246386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 324
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79259675352531f00800000000000000
+      internalID: 1086302453028704919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 324
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b9c00265dbb03d0800000000000000
+      internalID: -3239287329360405694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 324
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797f2fb1214b34260800000000000000
+      internalID: 7080701029027870615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_5
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8516edfafb0f9a960800000000000000
+      internalID: 7613881351126540632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 324
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979db9904291267a0800000000000000
+      internalID: -6385513679087216263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 324
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b60fefe04e0f180800000000000000
+      internalID: -9083509695348446369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 324
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ea4f4a6108ad4f0800000000000000
+      internalID: -803188748787077480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_9
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 296
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b9d5b81b33fc930800000000000000
+      internalID: 4165605017981393777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_10
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 296
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670a385f2901be9e0800000000000000
+      internalID: -1591159819975024522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 296
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdde8907878f7eb40800000000000000
+      internalID: 5469613468633591259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 296
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224107c6d23fd20d0800000000000000
+      internalID: -3445830763450199006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_13
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 296
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa9e1e8085bd36f0800000000000000
+      internalID: -703206403055117575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 296
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509585b3ff9bfc220800000000000000
+      internalID: 2508428023332100357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 296
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84790edbcce31ec70800000000000000
+      internalID: 8998542579542824776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_16
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 296
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc596a65aaa887fa0800000000000000
+      internalID: -5802735655664052789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 296
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc5ece9704e1e080800000000000000
+      internalID: -9159789445714649909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 264
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256cc549e827bad70800000000000000
+      internalID: 9055457432458544722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 280
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3d5b60f8a9eff00800000000000000
+      internalID: 1152528493737006004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 280
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8966cf74cdcf13c0800000000000000
+      internalID: -4386561268194580085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 264
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebaa43b54c9f8ac0800000000000000
+      internalID: -3850687333203792921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_22
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 280
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861aea55a57246c90800000000000000
+      internalID: -7177568637183680152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 264
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3008ca3119a3670800000000000000
+      internalID: 8519281158809191386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_24
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 280
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481324c4341add400800000000000000
+      internalID: 350613656419053956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_25
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 280
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8cb44ea8e4ed4a0800000000000000
+      internalID: -6566724848216979218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_26
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 264
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795d60fa88ce7b2a0800000000000000
+      internalID: -6721643847031007849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_27
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 280
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbe980d35b1c9750800000000000000
+      internalID: 6312950824461527992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_28
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 264
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e550b7dd88ad15f0800000000000000
+      internalID: -784285432930085400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_29
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 280
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c329e4217dcb2c570800000000000000
+      internalID: 8485552279830565436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_30
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 280
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac352438f8e327c90800000000000000
+      internalID: -7173602470344371254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 264
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c3a49f1dd7666e0800000000000000
+      internalID: -1844648656577610640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_32
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 264
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606711bd67dc6ea40800000000000000
+      internalID: 5397227113815307782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 248
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088e933c88e9b30c0800000000000000
+      internalID: -4594904684573366144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_34
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 248
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97164ae356c4c72a0800000000000000
+      internalID: -6738426944726736519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_35
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 248
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9491eafbc73a8c40800000000000000
+      internalID: 5515282042895570079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 248
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf50e5c501522b8e0800000000000000
+      internalID: -1679238958856403461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_37
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 248
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db2f2f440e18c280800000000000000
+      internalID: -9022928849579594799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 248
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5b69f0b4eff7b10800000000000000
+      internalID: 1981581959403845119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_39
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 236
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddc4e671b5a7aa70800000000000000
+      internalID: 8838214975360388571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 232
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ed76265c3469c80800000000000000
+      internalID: -8316385146854449633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 232
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b39b9cae4e688980800000000000000
+      internalID: -8536451809498393673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_42
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 232
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d0157f66c04a070800000000000000
+      internalID: 8116626064803958163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 232
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abd35da39d04d630800000000000000
+      internalID: 3950797701030075296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_44
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 232
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce0a5115f2e250f0800000000000000
+      internalID: -1129591014330593588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_45
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 233
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7d89573980134b0800000000000000
+      internalID: -5462575443597535282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_46
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 234
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7417a24bb70074bf0800000000000000
+      internalID: -340302715539525305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_47
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 216
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7def304e742768c70800000000000000
+      internalID: 8972984960676003543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 216
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee2e6cb44f46f2c0800000000000000
+      internalID: -4398240829443002654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_49
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 216
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4dd11cb761f43fb0800000000000000
+      internalID: -4668841485837148850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 216
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b58c087edc7351d0800000000000000
+      internalID: -3363207201776958032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_51
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 216
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4207a0976104dfa70800000000000000
+      internalID: 8862310106999189540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_52
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 217
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31e337ecfb2cd7c0800000000000000
+      internalID: -4045310000074858177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_53
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 218
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091668951fe93a6d0800000000000000
+      internalID: -2980363768962850416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_54
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 220
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb861511791ef6310800000000000000
+      internalID: 1400586048082372795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_55
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 200
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da12b97dc430b470800000000000000
+      internalID: 8408278561415371473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 184
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7024ec1c1cfaff0800000000000000
+      internalID: -22586434980280332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_57
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 200
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27c359d0479245d0800000000000000
+      internalID: -3079732890388150485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_58
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 184
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380ec4bd0b4cfd340800000000000000
+      internalID: 4890843984220184707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_59
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 201
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ce6ca8d3ee2c3f0800000000000000
+      internalID: -881880628922487738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_60
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 185
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16f478b78d8cffc0800000000000000
+      internalID: -3459734799672609251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_61
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 186
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8874b7a9a45c8d290800000000000000
+      internalID: -7865319824992548984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_62
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 200
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2018215290a293470800000000000000
+      internalID: 8374771200837189890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_63
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 184
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3e430a8f80a92e0800000000000000
+      internalID: -2118370810791664646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 200
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270ac635f48cc7000800000000000000
+      internalID: 35123140139720818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_65
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 184
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c037eb92142359650800000000000000
+      internalID: 6238948114246300428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_66
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 200
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4867608c28213930800000000000000
+      internalID: 4121119305618647116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_67
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 184
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9f804d0e14df110800000000000000
+      internalID: 1296264701638408680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_68
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 168
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4c3ceab929ca9a0800000000000000
+      internalID: -6220435787955845908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_69
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 152
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c4e7625d46f2270800000000000000
+      internalID: 8227905910865808529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_70
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4441674f7944750800000000000000
+      internalID: 6288318055924909302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_71
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763f74fa97196ca70800000000000000
+      internalID: 8846918469833716583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_72
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad97f6a849cb92a20800000000000000
+      internalID: 3038166769801853402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_73
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1245906df0f3d1d30800000000000000
+      internalID: 4403745347886208033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_74
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c42cbd6b0374fb10800000000000000
+      internalID: 2014361426264335557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_75
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd7a85eefbb02c30800000000000000
+      internalID: 4332669544977563081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_76
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d1fef68e87fbd90800000000000000
+      internalID: -7079807149497443043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_77
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 152
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c9b901509600eb0800000000000000
+      internalID: -4755685736028857199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_78
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 152
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ab497707859e4c0800000000000000
+      internalID: -4257774732636276207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_79
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80cfa88d6db8f9a0800000000000000
+      internalID: -6198996608933183349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_80
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 120
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848c8aab8cc4a9680800000000000000
+      internalID: -8747594901204973496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_81
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad2e305fcd0a6750800000000000000
+      internalID: 6298862212886703531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_82
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 120
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0e2949d077a4bf0800000000000000
+      internalID: -339327921702117214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_83
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a627fca0485ecb420800000000000000
+      internalID: 2647243036266820202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_84
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 120
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a892d64b61d24ee0800000000000000
+      internalID: -1278229085539886941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_85
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d58bb54074dfa8b0800000000000000
+      internalID: -5138655071135103535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_86
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 120
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2f45959f5fd57c0800000000000000
+      internalID: -4080835236033400096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_87
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a68292443244bd0800000000000000
+      internalID: -2646951905331746229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_88
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 120
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6b31c6d52899b30800000000000000
+      internalID: 4294607057431279290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_89
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6cda58c51c9aa10800000000000000
+      internalID: 1921279319174137565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_90
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 120
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204d86c5531a65650800000000000000
+      internalID: 6221337185814631426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_91
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190c99711cc3c55c0800000000000000
+      internalID: -4225435550358060911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_92
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 120
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566997954c22f8dd0800000000000000
+      internalID: -2481726642947778971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_93
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd595df5835b2f670800000000000000
+      internalID: 8571112294570104283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_94
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 120
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d53d2dab068d3010800000000000000
+      internalID: 1170238862894380505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_95
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 136
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0312723b4d8b56cc0800000000000000
+      internalID: -3718362693646212816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_96
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 120
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c212382d48c5c3ab0800000000000000
+      internalID: -5027041358515068628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_97
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 121
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b62c5b8dab2b9120800000000000000
+      internalID: 2421577249009182392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_98
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0ba4a5680516d70800000000000000
+      internalID: 9034590865452609734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_99
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 104
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccd349b517ad1530800000000000000
+      internalID: 3827398970079173828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_100
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd5c59e58a11a5e0800000000000000
+      internalID: -1900208405325521486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_101
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537fb96486681cd60800000000000000
+      internalID: 7908750203058648885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_102
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4fe71dd8bc18710800000000000000
+      internalID: 1693858744833602755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_103
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66b674e2901b4510800000000000000
+      internalID: 1534338321134040684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_104
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6420af4bc14170a10800000000000000
+      internalID: 1875489883351024198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_105
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7756bc8e64d65390800000000000000
+      internalID: -7829837330864777349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_106
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08530ab7c0d9c9010800000000000000
+      internalID: 1197004277912974720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_107
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 104
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eda68d07cfb04760800000000000000
+      internalID: 7440157446062386660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_108
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 88
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3579443b880b320800000000000000
+      internalID: 2571705690759844809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_109
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 88
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964941c3cc3f90a30800000000000000
+      internalID: 4182141787497075817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_110
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 88
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db461ba2d232cc060800000000000000
+      internalID: 6974988599786824893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_111
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 88
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b77e7e6003a0c00800000000000000
+      internalID: 867558684440886039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_112
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 88
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1224e84f2dde3c830800000000000000
+      internalID: 4090374376884421153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_113
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 88
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a110ce64a68b2a9a0800000000000000
+      internalID: -6223208968476688102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_114
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 73
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e79734f52171fed0800000000000000
+      internalID: -2381998320077269015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_115
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 73
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417c2db6846ec4b00800000000000000
+      internalID: 814278831368226580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_116
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 73
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884bc07d15e2c7480800000000000000
+      internalID: -8900187834555779960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_117
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 73
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f1bcf1317990b40800000000000000
+      internalID: 5407018936028569451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_118
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 73
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6092307706c49b1c0800000000000000
+      internalID: -4487471576500721402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_119
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 73
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ec94352f6e78270800000000000000
+      internalID: 8252818770633543291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_120
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 73
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21b3be228154feb0800000000000000
+      internalID: -4687031692614717138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_121
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 73
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6465f6ab77fdaf0800000000000000
+      internalID: -369445001805543691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_122
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 57
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b094e21a2e5d730800000000000000
+      internalID: 4023371024019557247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_123
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 59
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7389db2edc74840800000000000000
+      internalID: 5208357867804440574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_124
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 59
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560984cc5af862630800000000000000
+      internalID: 3901964069422796901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_125
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 59
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89d412013b9aca90800000000000000
+      internalID: -7292846011782473331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_126
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 59
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45e24490d4ca9b30800000000000000
+      internalID: 4294961594770842954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_127
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 59
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4ee6530a2c65450800000000000000
+      internalID: 6077258740530078941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_128
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 48
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433ffc7f0d239a930800000000000000
+      internalID: 4154908004318180148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_129
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 48
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0c87f4024754930800000000000000
+      internalID: 4126832315676016835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_130
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 48
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db4c8de54ad88430800000000000000
+      internalID: 3785515480677895129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_131
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 48
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcedaabed3d2a3f0800000000000000
+      internalID: -890916822697775920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_132
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 32
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677b8b2b08ef263e0800000000000000
+      internalID: -2061805850674546826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_133
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 32
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfcfd151a4ca5f70800000000000000
+      internalID: 9176863387863207874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_134
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 32
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805b439995006bf0800000000000000
+      internalID: -333260215266094976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_135
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 32
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf6341ae8f20abd0800000000000000
+      internalID: -2621042693492215879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_136
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 18
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34989ac55732dcf50800000000000000
+      internalID: 6903212790801598787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_137
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 18
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ba59b11c8ef5530800000000000000
+      internalID: 3846048522886818680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_138
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaf36963a8fdf240800000000000000
+      internalID: 4827287756342557404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_139
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 5
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288d0d1bafc9dd540800000000000000
+      internalID: 5034352559009093762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Centipede_Trans_140
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 5
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e107542c00af3f0800000000000000
+      internalID: -866379143926767991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Centipede_Trans_0: 3315182564435352893
+      Centipede_Trans_1: -9223253815135246386
+      Centipede_Trans_10: -1591159819975024522
+      Centipede_Trans_100: -1900208405325521486
+      Centipede_Trans_101: 7908750203058648885
+      Centipede_Trans_102: 1693858744833602755
+      Centipede_Trans_103: 1534338321134040684
+      Centipede_Trans_104: 1875489883351024198
+      Centipede_Trans_105: -7829837330864777349
+      Centipede_Trans_106: 1197004277912974720
+      Centipede_Trans_107: 7440157446062386660
+      Centipede_Trans_108: 2571705690759844809
+      Centipede_Trans_109: 4182141787497075817
+      Centipede_Trans_11: 5469613468633591259
+      Centipede_Trans_110: 6974988599786824893
+      Centipede_Trans_111: 867558684440886039
+      Centipede_Trans_112: 4090374376884421153
+      Centipede_Trans_113: -6223208968476688102
+      Centipede_Trans_114: -2381998320077269015
+      Centipede_Trans_115: 814278831368226580
+      Centipede_Trans_116: -8900187834555779960
+      Centipede_Trans_117: 5407018936028569451
+      Centipede_Trans_118: -4487471576500721402
+      Centipede_Trans_119: 8252818770633543291
+      Centipede_Trans_12: -3445830763450199006
+      Centipede_Trans_120: -4687031692614717138
+      Centipede_Trans_121: -369445001805543691
+      Centipede_Trans_122: 4023371024019557247
+      Centipede_Trans_123: 5208357867804440574
+      Centipede_Trans_124: 3901964069422796901
+      Centipede_Trans_125: -7292846011782473331
+      Centipede_Trans_126: 4294961594770842954
+      Centipede_Trans_127: 6077258740530078941
+      Centipede_Trans_128: 4154908004318180148
+      Centipede_Trans_129: 4126832315676016835
+      Centipede_Trans_13: -703206403055117575
+      Centipede_Trans_130: 3785515480677895129
+      Centipede_Trans_131: -890916822697775920
+      Centipede_Trans_132: -2061805850674546826
+      Centipede_Trans_133: 9176863387863207874
+      Centipede_Trans_134: -333260215266094976
+      Centipede_Trans_135: -2621042693492215879
+      Centipede_Trans_136: 6903212790801598787
+      Centipede_Trans_137: 3846048522886818680
+      Centipede_Trans_138: 4827287756342557404
+      Centipede_Trans_139: 5034352559009093762
+      Centipede_Trans_14: 2508428023332100357
+      Centipede_Trans_140: -866379143926767991
+      Centipede_Trans_15: 8998542579542824776
+      Centipede_Trans_16: -5802735655664052789
+      Centipede_Trans_17: -9159789445714649909
+      Centipede_Trans_18: 9055457432458544722
+      Centipede_Trans_19: 1152528493737006004
+      Centipede_Trans_2: 1086302453028704919
+      Centipede_Trans_20: -4386561268194580085
+      Centipede_Trans_21: -3850687333203792921
+      Centipede_Trans_22: -7177568637183680152
+      Centipede_Trans_23: 8519281158809191386
+      Centipede_Trans_24: 350613656419053956
+      Centipede_Trans_25: -6566724848216979218
+      Centipede_Trans_26: -6721643847031007849
+      Centipede_Trans_27: 6312950824461527992
+      Centipede_Trans_28: -784285432930085400
+      Centipede_Trans_29: 8485552279830565436
+      Centipede_Trans_3: -3239287329360405694
+      Centipede_Trans_30: -7173602470344371254
+      Centipede_Trans_31: -1844648656577610640
+      Centipede_Trans_32: 5397227113815307782
+      Centipede_Trans_33: -4594904684573366144
+      Centipede_Trans_34: -6738426944726736519
+      Centipede_Trans_35: 5515282042895570079
+      Centipede_Trans_36: -1679238958856403461
+      Centipede_Trans_37: -9022928849579594799
+      Centipede_Trans_38: 1981581959403845119
+      Centipede_Trans_39: 8838214975360388571
+      Centipede_Trans_4: 7080701029027870615
+      Centipede_Trans_40: -8316385146854449633
+      Centipede_Trans_41: -8536451809498393673
+      Centipede_Trans_42: 8116626064803958163
+      Centipede_Trans_43: 3950797701030075296
+      Centipede_Trans_44: -1129591014330593588
+      Centipede_Trans_45: -5462575443597535282
+      Centipede_Trans_46: -340302715539525305
+      Centipede_Trans_47: 8972984960676003543
+      Centipede_Trans_48: -4398240829443002654
+      Centipede_Trans_49: -4668841485837148850
+      Centipede_Trans_5: 7613881351126540632
+      Centipede_Trans_50: -3363207201776958032
+      Centipede_Trans_51: 8862310106999189540
+      Centipede_Trans_52: -4045310000074858177
+      Centipede_Trans_53: -2980363768962850416
+      Centipede_Trans_54: 1400586048082372795
+      Centipede_Trans_55: 8408278561415371473
+      Centipede_Trans_56: -22586434980280332
+      Centipede_Trans_57: -3079732890388150485
+      Centipede_Trans_58: 4890843984220184707
+      Centipede_Trans_59: -881880628922487738
+      Centipede_Trans_6: -6385513679087216263
+      Centipede_Trans_60: -3459734799672609251
+      Centipede_Trans_61: -7865319824992548984
+      Centipede_Trans_62: 8374771200837189890
+      Centipede_Trans_63: -2118370810791664646
+      Centipede_Trans_64: 35123140139720818
+      Centipede_Trans_65: 6238948114246300428
+      Centipede_Trans_66: 4121119305618647116
+      Centipede_Trans_67: 1296264701638408680
+      Centipede_Trans_68: -6220435787955845908
+      Centipede_Trans_69: 8227905910865808529
+      Centipede_Trans_7: -9083509695348446369
+      Centipede_Trans_70: 6288318055924909302
+      Centipede_Trans_71: 8846918469833716583
+      Centipede_Trans_72: 3038166769801853402
+      Centipede_Trans_73: 4403745347886208033
+      Centipede_Trans_74: 2014361426264335557
+      Centipede_Trans_75: 4332669544977563081
+      Centipede_Trans_76: -7079807149497443043
+      Centipede_Trans_77: -4755685736028857199
+      Centipede_Trans_78: -4257774732636276207
+      Centipede_Trans_79: -6198996608933183349
+      Centipede_Trans_8: -803188748787077480
+      Centipede_Trans_80: -8747594901204973496
+      Centipede_Trans_81: 6298862212886703531
+      Centipede_Trans_82: -339327921702117214
+      Centipede_Trans_83: 2647243036266820202
+      Centipede_Trans_84: -1278229085539886941
+      Centipede_Trans_85: -5138655071135103535
+      Centipede_Trans_86: -4080835236033400096
+      Centipede_Trans_87: -2646951905331746229
+      Centipede_Trans_88: 4294607057431279290
+      Centipede_Trans_89: 1921279319174137565
+      Centipede_Trans_9: 4165605017981393777
+      Centipede_Trans_90: 6221337185814631426
+      Centipede_Trans_91: -4225435550358060911
+      Centipede_Trans_92: -2481726642947778971
+      Centipede_Trans_93: 8571112294570104283
+      Centipede_Trans_94: 1170238862894380505
+      Centipede_Trans_95: -3718362693646212816
+      Centipede_Trans_96: -5027041358515068628
+      Centipede_Trans_97: 2421577249009182392
+      Centipede_Trans_98: 9034590865452609734
+      Centipede_Trans_99: 3827398970079173828
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
