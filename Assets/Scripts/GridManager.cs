@@ -14,7 +14,7 @@ namespace Centipede
             // convert grid pos to realworld position
             return new Vector3(x, 29 - y, 0);
         }
-        private Vector3 GridPos(Vector3 worldPos)
+        public Vector3 GridPos(Vector3 worldPos)
         {
             int x = Mathf.FloorToInt(worldPos.x);
             int y = Mathf.FloorToInt(worldPos.y);
@@ -36,7 +36,8 @@ namespace Centipede
         }
         public void TestDrawGrid()
         {
-            HashSet<Vector3> skipList = TestDrawSmileyData();
+            //HashSet<Vector3> skipList = TestDrawSmileyData();
+            HashSet<Vector3> skipList = TestDrawSmileyData2();
 
             for (int x = 0; x < 30; x++)
             {
@@ -44,7 +45,7 @@ namespace Centipede
                 {
                     Vector3 currentPos = WorldPos(x, y);
 
-                    if (skipList.Contains(currentPos)) { continue; }
+                    if (skipList.Contains(new Vector3(x,y,0))) { continue; }
 
                     GameObject g = Instantiate(spacerPrefab);
                     g.transform.position = currentPos;
@@ -77,6 +78,47 @@ namespace Centipede
             skipList.Add(new Vector3(20, 8, 0)); skipList.Add(new Vector3(21, 9, 0));
 
             return skipList;
+        }
+        private HashSet<Vector3> TestDrawSmileyData2()
+        {
+            HashSet<Vector3> smileCoordinates = new HashSet<Vector3>();
+
+            // === EYES (2x2 Blocks) ===
+            // Left Eye
+            smileCoordinates.Add(new Vector3(8, 9, 0)); smileCoordinates.Add(new Vector3(9, 9, 0));
+            smileCoordinates.Add(new Vector3(8, 10, 0)); smileCoordinates.Add(new Vector3(9, 10, 0));
+
+            // Right Eye
+            smileCoordinates.Add(new Vector3(20, 9, 0)); smileCoordinates.Add(new Vector3(21, 9, 0));
+            smileCoordinates.Add(new Vector3(20, 10, 0)); smileCoordinates.Add(new Vector3(21, 10, 0));
+
+
+            // === MOUTH CURVE (Left to Right) ===
+            // Left Upturn
+            smileCoordinates.Add(new Vector3(5, 15, 0));
+            smileCoordinates.Add(new Vector3(6, 16, 0));
+            smileCoordinates.Add(new Vector3(7, 17, 0));
+            smileCoordinates.Add(new Vector3(8, 18, 0));
+            smileCoordinates.Add(new Vector3(9, 19, 0));
+            smileCoordinates.Add(new Vector3(10, 20, 0));
+            smileCoordinates.Add(new Vector3(11, 21, 0));
+
+            // Bottom Base
+            smileCoordinates.Add(new Vector3(12, 22, 0)); smileCoordinates.Add(new Vector3(13, 22, 0));
+            smileCoordinates.Add(new Vector3(14, 23, 0)); smileCoordinates.Add(new Vector3(15, 23, 0));
+            smileCoordinates.Add(new Vector3(16, 22, 0)); smileCoordinates.Add(new Vector3(17, 22, 0));
+
+            // Right Upturn
+            smileCoordinates.Add(new Vector3(18, 21, 0));
+            smileCoordinates.Add(new Vector3(19, 20, 0));
+            smileCoordinates.Add(new Vector3(20, 19, 0));
+            smileCoordinates.Add(new Vector3(21, 18, 0));
+            smileCoordinates.Add(new Vector3(22, 17, 0));
+            smileCoordinates.Add(new Vector3(23, 16, 0));
+            smileCoordinates.Add(new Vector3(24, 15, 0));
+
+            return smileCoordinates;
+
         }
     }
 }

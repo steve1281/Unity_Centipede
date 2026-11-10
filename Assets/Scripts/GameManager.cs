@@ -7,6 +7,7 @@ namespace Centipede
     {
 
         private GridManager gridManager;
+        private Player player;
 
         private static GameManager instance;
         public static GameManager Instance { get => instance; private set => instance = value; } 
@@ -21,9 +22,15 @@ namespace Centipede
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
+        void Start()
+        {
+            //Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
         private void Update()
         {
-            gridManager.TestMouseClickXY();
+            //gridManager.TestMouseClickXY();
+            player.MovePlayer();
         }
 
         private void OnEnable()
@@ -40,9 +47,10 @@ namespace Centipede
         {
             /* grab game objects we need */
             gridManager = FindAnyObjectByType<GridManager>();
+            player = FindAnyObjectByType<Player>();
 
             /* add code to reload here */
-            gridManager.TestDrawGrid();
+            //gridManager.TestDrawGrid();
         }
  
     }
