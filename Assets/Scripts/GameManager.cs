@@ -8,6 +8,7 @@ namespace Centipede
 
         private GridManager gridManager;
         private Player player;
+        private Centipede centipede;
 
         private static GameManager instance;
         public static GameManager Instance { get => instance; private set => instance = value; } 
@@ -26,6 +27,7 @@ namespace Centipede
         {
             //Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+
         }
         private void Update()
         {
@@ -48,9 +50,11 @@ namespace Centipede
             /* grab game objects we need */
             gridManager = FindAnyObjectByType<GridManager>();
             player = FindAnyObjectByType<Player>();
+            centipede = FindAnyObjectByType<Centipede>();
 
             /* add code to reload here */
             //gridManager.TestDrawGrid();
+            StartCoroutine(centipede.TestWalkTheScreen());
         }
  
     }
