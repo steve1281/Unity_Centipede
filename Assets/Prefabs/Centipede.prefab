@@ -125,6 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7039021660084730004}
   - component: {fileID: 1410787043009960427}
+  - component: {fileID: 5062930466661799093}
   m_Layer: 0
   m_Name: Centipede
   m_TagString: Untagged
@@ -149,6 +150,20 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1410787043009960427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5760427936447262087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f47ced6c0d6a9645b22a72d2c939e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  speed: 0.2
+  spriteTransform: {fileID: 917578365062906694}
+--- !u!114 &5062930466661799093
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
