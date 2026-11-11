@@ -6,6 +6,7 @@ namespace Centipede
     public class Centipede : MonoBehaviour
     {
         [SerializeField] private float speed = 0.2f;
+        [SerializeField] private Transform spriteTransform;
 
         public IEnumerator TestWalkTheScreen()
         {
@@ -17,6 +18,7 @@ namespace Centipede
         }
         private IEnumerator TestWalkRight(int y)
         {
+            LookRight();
             for (int x = 0; x < 30; x++)
             {
                 transform.position = new Vector3(x, 29-y, 0);
@@ -25,11 +27,24 @@ namespace Centipede
         }
         private IEnumerator TestWalkLeft(int y)
         {
+            LookLeft();
             for (int x = 29; x >= 0; x--)
             {
                 transform.position = new Vector3(x, 29-y, 0);
                 yield return (new WaitForSecondsRealtime(speed));
             }
+        }
+        private void LookLeft()
+        {
+                spriteTransform.eulerAngles = new Vector3(spriteTransform.rotation.x, 
+                    spriteTransform.rotation.y, 
+                    0);
+        }
+        private void LookRight()
+        {
+                spriteTransform.eulerAngles = new Vector3(spriteTransform.rotation.x, 
+                    spriteTransform.rotation.y, 
+                    180);
         }
     }
 }
