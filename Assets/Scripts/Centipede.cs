@@ -8,6 +8,15 @@ namespace Centipede
         [SerializeField] private float speed = 0.2f;
         [SerializeField] private Transform spriteTransform;
 
+        private int xpos = 0;
+
+        private GameManager gameManager;
+
+        private void Awake()
+        {
+            gameManager = FindAnyObjectByType<GameManager>();
+        }
+
         public IEnumerator TestWalkTheScreen()
         {
             for (int y = 0; y < 30; y+=2)
@@ -19,8 +28,14 @@ namespace Centipede
         private IEnumerator TestWalkRight(int y)
         {
             LookRight();
-            for (int x = 0; x < 30; x++)
+            for (int x = xpos; x < 30; x++)
             {
+                xpos = x;
+                if (gameManager.GridGet(x,y)==GameEntity.Mushroom)
+                {
+                    xpos--;
+                    break; //boink
+                }
                 transform.position = new Vector3(x, 29-y, 0);
                 yield return (new WaitForSecondsRealtime(speed));
             }
@@ -28,8 +43,14 @@ namespace Centipede
         private IEnumerator TestWalkLeft(int y)
         {
             LookLeft();
-            for (int x = 29; x >= 0; x--)
+            for (int x = xpos; x >= 0; x--)
             {
+                xpos = x;
+                if (gameManager.GridGet(x,y)==GameEntity.Mushroom)
+                {
+                    xpos++;
+                    break; //boink
+                }
                 transform.position = new Vector3(x, 29-y, 0);
                 yield return (new WaitForSecondsRealtime(speed));
             }

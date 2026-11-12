@@ -95,7 +95,11 @@ namespace Centipede
         {
             int x = Random.Range(0, 30);
             int y = Random.Range(0, 12);
-            mushroom.transform.position = new Vector3(x, 29-y, 0);
+            if (GridGet(x, y) == GameEntity.Empty) 
+            { 
+                mushroom.transform.position = new Vector3(x, 29 - y, 0);
+                GridSet(GameEntity.Mushroom, x, y);
+            }
         }
         private IEnumerator SpawnCentipedes()
         {
@@ -117,6 +121,15 @@ namespace Centipede
                 centipede.transform.position = new Vector3(-1, 29, 0);
                 centipedes.Add(centipede);
             }
+        }
+
+        public GameEntity GridGet(int x, int y)
+        {
+            return gridManager.Get(x, y);
+        }
+        public void GridSet(GameEntity ge , int x, int y)
+        {
+            gridManager.Set(ge, x, y);
         }
  
     }
