@@ -6,8 +6,41 @@ namespace Centipede
 {
     public class GridManager : MonoBehaviour
     {
+        private const int Width = 30;
+        private const int Height = 30;
+
         [Header("Prefabs")]
         [SerializeField] private GameObject spacerPrefab;
+
+        private GameEntity[,] gridData = new GameEntity[Width, Height];
+        public void Set(GameEntity gameEntity, int x, int y)
+        {
+            if (x < 0) return;
+            if (y < 0) return;
+            if (x > Width  - 1) return;
+            if (x > Height - 1) return;
+
+            gridData[x, y] = gameEntity; 
+        }
+        public GameEntity Get(int x, int y)
+        {
+            if (x < 0) return GameEntity.Empty;
+            if (y < 0) return GameEntity.Empty;
+            if (x > Width  - 1) return GameEntity.Empty;
+            if (x > Height - 1) return GameEntity.Empty;
+
+            return gridData[x, y];
+        }
+        public void Init()
+        {
+            for (int x = 0; x <Width; x++)
+            {
+                for (int y = 0; y < Height; y++)
+                {
+                    gridData[x, y] = GameEntity.Empty;
+                }
+            }
+        }
 
         private Vector3 WorldPos(int x, int y)
         {
@@ -120,5 +153,15 @@ namespace Centipede
             return smileCoordinates;
 
         }
+    }
+
+
+    public enum GameEntity { 
+        Empty, 
+        Mushroom, 
+        PoisonMushroom,
+        Player,
+        CentipedeHead,
+        CentipedeBody
     }
 }
