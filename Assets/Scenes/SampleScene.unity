@@ -460,8 +460,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Centipede.GameManager
   centipedePrefab: {fileID: 1410787043009960427, guid: 9b6b34b0536514544a9564016d304f44, type: 3}
-  centipedeCount: 12
-  centipedeSpawnDelay: 0.5
+  centipedeCount: 2
+  centipedeSpawnDelay: 10
+  mushroomPrefab: {fileID: 8433019284250602696, guid: 4ceb978aef67eb7499417d14e5a287fe, type: 3}
+  mushroomCount: 10
 --- !u!4 &1917139946
 Transform:
   m_ObjectHideFlags: 0
