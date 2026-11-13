@@ -47,7 +47,11 @@ namespace Centipede
         private void Update()
         {
             //gridManager.TestMouseClickXY();
-            player.MovePlayer();
+            if (player != null)
+            {
+                player.MovePlayer();
+            }
+
         }
 
         private void OnEnable()

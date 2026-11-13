@@ -40,10 +40,14 @@ namespace Centipede
             if (gridPos.x > 29) gridPos.x = 29;
 
             // check for collision
-            if (gameManager.GridGet((int)gridPos.x, (int)gridPos.y) != GameEntity.Empty) 
+            if (gameManager.GridGet(Mathf.FloorToInt(gridPos.x), Mathf.FloorToInt(gridPos.y)) != GameEntity.Empty) 
             {
                 Debug.Log($"x:{gridPos.x}, y:{gridPos.y} Boink Boink!");
                 gridManager.Set(GameEntity.Player, xpos, ypos);
+                if (gameManager.GridGet(Mathf.FloorToInt(gridPos.x), Mathf.FloorToInt(gridPos.y)) == GameEntity.CentipedeHead)
+                {
+                    Destroy(gameObject);
+                }
                 return;
             }
 
