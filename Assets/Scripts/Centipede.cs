@@ -9,59 +9,71 @@ namespace Centipede
         [SerializeField] private Transform spriteTransform;
 
         private int xpos = 0;
+        private int ypos = 0;
 
         private GameManager gameManager;
+        private GridManager gridManager;
 
         private void Awake()
         {
             gameManager = FindAnyObjectByType<GameManager>();
+            gridManager = FindAnyObjectByType<GridManager>();
         }
 
-        public IEnumerator TestWalkTheScreen()
+        public IEnumerator Walk(float speed=0.1f)
         {
+            this.speed = speed;
             for (int y = 0; y < 30; y+=2)
             {
-                yield return StartCoroutine(TestWalkRight(y));
-                yield return StartCoroutine(TestWalkLeft(y+1));
+                yield return StartCoroutine(WalkRight(y));
+                yield return StartCoroutine(WalkLeft(y+1));
             }
         }
-        private IEnumerator TestWalkRight(int y)
+        private IEnumerator WalkRight(int y)
         {
-            LookRight();
+            FaceRight();
+            gridManager.Set(GameEntity.Empty, xpos, ypos); 
+            ypos = y;
             for (int x = xpos; x < 30; x++)
             {
-                xpos = x;
-                if (gameManager.GridGet(x,y)==GameEntity.Mushroom)
+                // check if we can go to a spot
+                if (gridManager.Get(x,y)==GameEntity.Mushroom)
                 {
-                    xpos--;
-                    break; //boink
+                    break; // we couldn't, abandon going right
                 }
+                // remove yourself from the grid
+                gridManager.Set(GameEntity.Empty, xpos, ypos); 
+                xpos = x;
                 transform.position = new Vector3(x, 29-y, 0);
+                gridManager.Set(GameEntity.CentipedeHead, xpos, ypos); 
                 yield return (new WaitForSecondsRealtime(speed));
             }
         }
-        private IEnumerator TestWalkLeft(int y)
+        private IEnumerator WalkLeft(int y)
         {
-            LookLeft();
+            FaceLeft();
+            gridManager.Set(GameEntity.Empty, xpos, ypos); 
+            ypos = y;
             for (int x = xpos; x >= 0; x--)
             {
-                xpos = x;
-                if (gameManager.GridGet(x,y)==GameEntity.Mushroom)
+                if (gridManager.Get(x,y)==GameEntity.Mushroom)
                 {
-                    xpos++;
                     break; //boink
                 }
+                gridManager.Set(GameEntity.Empty, xpos, ypos); 
+                xpos = x;
                 transform.position = new Vector3(x, 29-y, 0);
+                gridManager.Set(GameEntity.CentipedeHead, xpos, ypos); 
                 yield return (new WaitForSecondsRealtime(speed));
             }
         }
-        private void LookLeft()
+        private void FaceLeft()
         {
                 spriteTransform.eulerAngles = new Vector3(spriteTransform.rotation.x, 
                     spriteTransform.rotation.y, 
                     0);
         }
-        private void LookRight()
+        private void FaceRight()
         {
                 spriteTransform.eulerAngles = new Vector3(spriteTransform.rotation.x, 
                     spriteTransform.rotation.y, 

@@ -82,7 +82,6 @@ namespace Centipede
                 mushroom.transform.position = new Vector3(-1, 29, 0);
                 mushrooms.Add(mushroom);
             }
-
         }
         private void SpawnMushrooms()
         {
@@ -93,7 +92,7 @@ namespace Centipede
         }
         private void SpawnMushroom(GameObject mushroom)
         {
-            int x = Random.Range(0, 30);
+            int x = Random.Range(1, 29);
             int y = Random.Range(0, 12);
             if (GridGet(x, y) == GameEntity.Empty) 
             { 
@@ -111,7 +110,7 @@ namespace Centipede
         }
         private void SpawnCentipede(Centipede centipede)
         { 
-            StartCoroutine(centipede.TestWalkTheScreen());
+            StartCoroutine(centipede.Walk());
         }
         private void GenerateCentipedes()
         {
