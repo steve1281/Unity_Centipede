@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -54,6 +55,23 @@ namespace Centipede
 
             return new Vector3(x, 29 - y, 0);
         }
+
+        public void DumpGrid()
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int y = 0; y < Height; y++)
+            {
+                for (int x = 0; x < Width; x++)
+                {
+                    sb.Append(gridData[x, y]);
+                    sb.Append(',');
+                }
+                sb.Length--;
+                sb.AppendLine();
+            }
+            Debug.Log(sb.ToString());
+        }
+
         public void TestMouseClickXY()
         {
             if (Mouse.current.leftButton.wasPressedThisFrame)

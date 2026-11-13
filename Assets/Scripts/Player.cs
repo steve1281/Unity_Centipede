@@ -6,15 +6,28 @@ namespace Centipede
     public class Player : MonoBehaviour
     {
 
+        private int xpos = 0;
+        private int ypos = 0;
+
         private GameManager gameManager;
+        private GridManager gridManager;
+
 
         private void Awake()
         {
             gameManager = FindAnyObjectByType<GameManager>();
+            gridManager = FindAnyObjectByType<GridManager>();
         }
-
+        private void Update()
+        {
+            if (Keyboard.current.qKey.wasPressedThisFrame)
+            {
+                gridManager.DumpGrid();
+            }
+        }
         public void MovePlayer()
         {
+            gridManager.Set(GameEntity.Empty, xpos, ypos);
 
             Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
@@ -30,14 +43,17 @@ namespace Centipede
             if (gameManager.GridGet((int)gridPos.x, (int)gridPos.y) != GameEntity.Empty) 
             {
                 Debug.Log($"x:{gridPos.x}, y:{gridPos.y} Boink Boink!");
+                gridManager.Set(GameEntity.Player, xpos, ypos);
                 return;
             }
 
+            // update grid
+            xpos = Mathf.FloorToInt(gridPos.x);
+            ypos = Mathf.FloorToInt(gridPos.y);
+            gridManager.Set(GameEntity.Player, xpos, ypos);
+
             // convert to realword coordinates
             gridPos.y = 29 - gridPos.y;
-
-            
-
             transform.position = gridPos; 
         }
     }
