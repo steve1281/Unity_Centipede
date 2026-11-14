@@ -9,15 +9,17 @@ namespace Centipede
     {
 
         private GridManager gridManager;
-        private Player player;
-        private List<Centipede> centipedes = new List<Centipede>();
 
+        [Header("Player")]
+        [SerializeField] private Player playerPrefab;
+        private Player player;
 
 
         [Header ("Centipedes")]
         [SerializeField] private Centipede centipedePrefab;
         [SerializeField] private int centipedeCount = 0;
         [SerializeField] private float centipedeSpawnDelay = 0.1f;
+        private List<Centipede> centipedes = new List<Centipede>();
 
         [Header("Mushrooms")]
         [SerializeField] private GameObject mushroomPrefab;
@@ -72,11 +74,18 @@ namespace Centipede
 
             /* add code to reload here */
             //gridManager.TestDrawGrid();
+            GeneratePlayer();
             GenerateMushrooms();
             SpawnMushrooms();
 
             GenerateCentipedes();
             StartCoroutine(SpawnCentipedes());
+        }
+        private void GeneratePlayer()
+        {
+            player = Instantiate<Player>(playerPrefab);
+            player.transform.position = new Vector3(0, 0, 0);
+
         }
         private void GenerateMushrooms()
         {
@@ -98,10 +107,10 @@ namespace Centipede
         {
             int x = Random.Range(1, 29);
             int y = Random.Range(0, 12);
-            if (GridGet(x, y) == GameEntity.Empty) 
+            if (gridManager.Get(x, y) == GameEntity.Empty) 
             { 
                 mushroom.transform.position = new Vector3(x, 29 - y, 0);
-                GridSet(GameEntity.Mushroom, x, y);
+                gridManager.Set(GameEntity.Mushroom, x, y);
             }
         }
         private IEnumerator SpawnCentipedes()
@@ -126,14 +135,11 @@ namespace Centipede
             }
         }
 
-        public GameEntity GridGet(int x, int y)
+        public void DestroyPlayer()
         {
-            return gridManager.Get(x, y);
-        }
-        public void GridSet(GameEntity ge , int x, int y)
-        {
-            gridManager.Set(ge, x, y);
-        }
- 
+            Debug.Log("GameManager::DestroyPlayer called.");
+            Destroy(player.gameObject);
+            //GeneratePlayer();
+        } 
     }
 }

@@ -41,6 +41,11 @@ namespace Centipede
                 {
                     break; // we couldn't, abandon going right
                 }
+                if (gridManager.Get(x,y)== GameEntity.Player)
+                {
+                    // hit a player
+                    gameManager.DestroyPlayer();
+                }
                 // remove yourself from the grid
                 gridManager.Set(GameEntity.Empty, xpos, ypos); 
                 xpos = x;
@@ -59,6 +64,11 @@ namespace Centipede
                 if (gridManager.Get(x,y)==GameEntity.Mushroom)
                 {
                     break; //boink
+                }
+                if (gridManager.Get(x, y) == GameEntity.Player)
+                {
+                    // hit a player
+                    gameManager.DestroyPlayer();
                 }
                 gridManager.Set(GameEntity.Empty, xpos, ypos); 
                 xpos = x;
