@@ -143,6 +143,7 @@ namespace Centipede
             for (int i=0; i<centipedeCount; i++) { 
                 Centipede centipede = Instantiate<Centipede>(centipedePrefab);
                 centipede.transform.position = new Vector3(-1, 29, 0);
+                centipede.SetBodyCount(3);
                 centipedes.Add(centipede);
             }
         }

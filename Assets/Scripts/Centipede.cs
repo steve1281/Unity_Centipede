@@ -10,12 +10,36 @@ namespace Centipede
         [SerializeField] private GameObject bodySprite;
         [SerializeField] private GameObject headSprite;
 
+        [Header("Centipede")]
+        [SerializeField] private Centipede centipedePrefab;
 
         private int xpos = 0;
         private int ypos = 0;
 
+        private int bodyCount = 0;
+        private Centipede nextSegment = null;
+
         private GameManager gameManager;
         private GridManager gridManager;
+
+        public void SetBodyCount(int bodyCount)
+        {
+            this.bodyCount = bodyCount;
+            if (bodyCount >0)
+            {
+                Centipede centipede = Instantiate<Centipede>(centipedePrefab);
+                centipede.transform.position = new Vector3(xpos-1, ypos, 0);
+                centipede.SetBodyCount(bodyCount-1);
+                centipede.Demote();
+                nextSegment = centipede;
+            }
+        }
+
+        public void Demote()
+        {
+            bodySprite.SetActive(true);
+            headSprite.SetActive(false);
+        }
 
         private void Awake()
         {
@@ -35,7 +59,6 @@ namespace Centipede
         {
             FaceRight();
             gridManager.Set(GameEntity.Empty, xpos, ypos); 
-            ypos = y;
             for (int x = xpos; x < 30; x++)
             {
                 // check if we can go to a spot
@@ -48,11 +71,7 @@ namespace Centipede
                     // hit a player
                     gameManager.DestroyPlayer();
                 }
-                // remove yourself from the grid
-                gridManager.Set(GameEntity.Empty, xpos, ypos); 
-                xpos = x;
-                transform.position = new Vector3(x, 29-y, 0);
-                gridManager.Set(GameEntity.CentipedeHead, xpos, ypos); 
+                Move(x, y);
                 yield return (new WaitForSecondsRealtime(speed));
             }
         }
@@ -60,7 +79,6 @@ namespace Centipede
         {
             FaceLeft();
             gridManager.Set(GameEntity.Empty, xpos, ypos); 
-            ypos = y;
             for (int x = xpos; x >= 0; x--)
             {
                 if (gridManager.Get(x,y)==GameEntity.Mushroom)
@@ -72,12 +90,18 @@ namespace Centipede
                     // hit a player
                     gameManager.DestroyPlayer();
                 }
-                gridManager.Set(GameEntity.Empty, xpos, ypos); 
-                xpos = x;
-                transform.position = new Vector3(x, 29-y, 0);
-                gridManager.Set(GameEntity.CentipedeHead, xpos, ypos); 
+                Move(x, y);
                 yield return (new WaitForSecondsRealtime(speed));
             }
+        }
+        public void Move(int x, int y)
+        {
+            gridManager.Set(GameEntity.Empty, xpos, ypos);  // erase
+            if (nextSegment != null) nextSegment.Move(xpos, ypos); // call child, if any
+            ypos = y;
+            xpos = x;
+            transform.position = new Vector3(xpos, 29 - ypos, 0);
+            gridManager.Set(GameEntity.CentipedeHead, xpos, ypos);
         }
         private void FaceLeft()
         {

@@ -218,10 +218,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: 0.16666667
+    y: 0.055555556
+    width: 0.6666667
+    height: 0.8888889
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -463,8 +463,8 @@ MonoBehaviour:
   minSpawnTime: 0.2
   maxSpawnTime: 0.8
   centipedePrefab: {fileID: 1410787043009960427, guid: 9b6b34b0536514544a9564016d304f44, type: 3}
-  centipedeCount: 1
-  centipedeSpawnDelay: 10
+  centipedeCount: 2
+  centipedeSpawnDelay: 2
   mushroomPrefab: {fileID: 8433019284250602696, guid: 4ceb978aef67eb7499417d14e5a287fe, type: 3}
   mushroomCount: 10
 --- !u!4 &1917139946
