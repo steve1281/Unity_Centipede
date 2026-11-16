@@ -12,6 +12,8 @@ namespace Centipede
 
         [Header("Player")]
         [SerializeField] private Player playerPrefab;
+        [SerializeField] private float minSpawnTime = 0.2f;
+        [SerializeField] private float maxSpawnTime = 0.8f;
         private Player player;
 
 
@@ -20,6 +22,9 @@ namespace Centipede
         [SerializeField] private int centipedeCount = 0;
         [SerializeField] private float centipedeSpawnDelay = 0.1f;
         private List<Centipede> centipedes = new List<Centipede>();
+        //private List<CentipedeData> centipedeData = new List<CentipedeData>();
+
+
 
         [Header("Mushrooms")]
         [SerializeField] private GameObject mushroomPrefab;
@@ -74,18 +79,25 @@ namespace Centipede
 
             /* add code to reload here */
             //gridManager.TestDrawGrid();
-            GeneratePlayer();
+            //GeneratePlayer();
+
             GenerateMushrooms();
             SpawnMushrooms();
 
             GenerateCentipedes();
             StartCoroutine(SpawnCentipedes());
+            StartCoroutine(SpawnPlayer());
+        }
+        private IEnumerator SpawnPlayer()
+        {
+            float waitTime = Random.Range(minSpawnTime, maxSpawnTime);
+            yield return new WaitForSecondsRealtime(waitTime);
+            GeneratePlayer();
         }
         private void GeneratePlayer()
         {
             player = Instantiate<Player>(playerPrefab);
             player.transform.position = new Vector3(0, 0, 0);
-
         }
         private void GenerateMushrooms()
         {
@@ -121,14 +133,14 @@ namespace Centipede
                 yield return new WaitForSecondsRealtime(centipedeSpawnDelay);
             }
         }
-        private void SpawnCentipede(Centipede centipede)
-        { 
-            StartCoroutine(centipede.Walk());
+
+        private void SpawnCentipede(Centipede cd)
+        {
+            StartCoroutine(cd.Walk());
         }
         private void GenerateCentipedes()
         {
-            for (int i = 0; i < centipedeCount; i++)
-            {
+            for (int i=0; i<centipedeCount; i++) { 
                 Centipede centipede = Instantiate<Centipede>(centipedePrefab);
                 centipede.transform.position = new Vector3(-1, 29, 0);
                 centipedes.Add(centipede);
@@ -137,9 +149,18 @@ namespace Centipede
 
         public void DestroyPlayer()
         {
+            if (player == null) return;
+
             Debug.Log("GameManager::DestroyPlayer called.");
             Destroy(player.gameObject);
-            //GeneratePlayer();
+            StartCoroutine(SpawnPlayer());
         } 
     }
+/*
+    [System.Serializable]
+    public class CentipedeData
+    {
+        public List<Centipede> centipedes = new List<Centipede>();
+    }
+*/
 }

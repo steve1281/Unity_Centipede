@@ -7,6 +7,9 @@ namespace Centipede
     {
         [SerializeField] private float speed = 0.2f;
         [SerializeField] private Transform spriteTransform;
+        [SerializeField] private GameObject bodySprite;
+        [SerializeField] private GameObject headSprite;
+
 
         private int xpos = 0;
         private int ypos = 0;
@@ -19,7 +22,6 @@ namespace Centipede
             gameManager = FindAnyObjectByType<GameManager>();
             gridManager = FindAnyObjectByType<GridManager>();
         }
-
         public IEnumerator Walk(float speed=0.1f)
         {
             this.speed = speed;
