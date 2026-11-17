@@ -143,7 +143,7 @@ namespace Centipede
             for (int i=0; i<centipedeCount; i++) { 
                 Centipede centipede = Instantiate<Centipede>(centipedePrefab);
                 centipede.transform.position = new Vector3(-1, 29, 0);
-                centipede.SetBodyCount(3);
+                centipede.SetBodyCount(6);
                 centipedes.Add(centipede);
             }
         }
@@ -155,7 +155,29 @@ namespace Centipede
             Debug.Log("GameManager::DestroyPlayer called.");
             Destroy(player.gameObject);
             StartCoroutine(SpawnPlayer());
-        } 
+        }
+
+        public void TestKillCentipedeHeads()
+        {
+            List<Centipede> temp = new List<Centipede>();
+             
+            for (int i = 0; i < centipedes.Count; i++)
+            {
+                Centipede c = centipedes[i];
+                if (c.GetNextSegment() != null)
+                {
+                    c.GetNextSegment().direction = c.direction;  
+                    temp.Add(c.GetNextSegment());
+                }
+                Destroy(c.gameObject);
+            }
+            centipedes.Clear();
+            for (int i = 0;i < temp.Count;i++)
+            {
+                centipedes.Add(temp[i]);
+                temp[i].Promote();
+            }
+        }
     }
 /*
     [System.Serializable]

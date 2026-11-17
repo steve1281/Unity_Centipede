@@ -22,7 +22,8 @@ namespace Centipede
         {
             if (Keyboard.current.qKey.wasPressedThisFrame)
             {
-                gridManager.DumpGrid();
+                //gridManager.DumpGrid();
+                gameManager.TestKillCentipedeHeads();
             }
         }
         public void MovePlayer()

@@ -15,13 +15,17 @@ namespace Centipede
 
         private int xpos = 0;
         private int ypos = 0;
+        public int direction = 1; // -1 is LEFT, 1 is RIGHT
 
         private int bodyCount = 0;
         private Centipede nextSegment = null;
 
         private GameManager gameManager;
         private GridManager gridManager;
-
+        public Centipede GetNextSegment()
+        {
+            return nextSegment;
+        }
         public void SetBodyCount(int bodyCount)
         {
             this.bodyCount = bodyCount;
@@ -41,6 +45,15 @@ namespace Centipede
             headSprite.SetActive(false);
         }
 
+        public void Promote( )
+        {
+            Debug.Log("Centipede::Promote was called.");
+            bodySprite.SetActive(false);
+            headSprite.SetActive(true);
+            direction *= -1;
+            if (direction == -1) ypos--;
+            StartCoroutine(Walk());
+        }
         private void Awake()
         {
             gameManager = FindAnyObjectByType<GameManager>();
@@ -49,14 +62,18 @@ namespace Centipede
         public IEnumerator Walk(float speed=0.1f)
         {
             this.speed = speed;
-            for (int y = 0; y < 30; y+=2)
+            for (int y = ypos; y < 30; y+=2)
             {
-                yield return StartCoroutine(WalkRight(y));
-                yield return StartCoroutine(WalkLeft(y+1));
+                if (direction == 1)  // right 
+                    yield return StartCoroutine(WalkRight(y));
+                if (direction == -1) // left
+                    yield return StartCoroutine(WalkLeft(y + 1));
             }
         }
         private IEnumerator WalkRight(int y)
         {
+            Debug.Log("==== RIGHT ====");
+            direction = -1;
             FaceRight();
             gridManager.Set(GameEntity.Empty, xpos, ypos); 
             for (int x = xpos; x < 30; x++)
@@ -77,6 +94,8 @@ namespace Centipede
         }
         private IEnumerator WalkLeft(int y)
         {
+            Debug.Log("==== LEFT ====");
+            direction = 1;
             FaceLeft();
             gridManager.Set(GameEntity.Empty, xpos, ypos); 
             for (int x = xpos; x >= 0; x--)

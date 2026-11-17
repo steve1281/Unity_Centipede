@@ -463,7 +463,7 @@ MonoBehaviour:
   minSpawnTime: 0.2
   maxSpawnTime: 0.8
   centipedePrefab: {fileID: 1410787043009960427, guid: 9b6b34b0536514544a9564016d304f44, type: 3}
-  centipedeCount: 2
+  centipedeCount: 1
   centipedeSpawnDelay: 2
   mushroomPrefab: {fileID: 8433019284250602696, guid: 4ceb978aef67eb7499417d14e5a287fe, type: 3}
   mushroomCount: 10
