@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,6 +6,12 @@ namespace Centipede
 {
     public class Player : MonoBehaviour
     {
+
+        [SerializeField] private Transform cannon;
+        [SerializeField] private GameObject bulletPrefab;
+
+        private GameObject bullet=null;
+
 
         private int xpos = 0;
         private int ypos = 0;
@@ -22,8 +29,16 @@ namespace Centipede
         {
             if (Keyboard.current.qKey.wasPressedThisFrame)
             {
-                //gridManager.DumpGrid();
-                gameManager.TestKillCentipedeHeads();
+                gridManager.DumpGrid();
+                //gameManager.TestKillCentipedeHeads();
+            }
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                if (bullet == null)
+                {
+                    bullet = Instantiate (bulletPrefab);
+                    bullet.transform.position = cannon.transform.position;
+                }
             }
         }
         public void MovePlayer()

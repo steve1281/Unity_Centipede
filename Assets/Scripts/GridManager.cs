@@ -63,10 +63,10 @@ namespace Centipede
             {
                 for (int x = 0; x < Width; x++)
                 {
-                    sb.Append(gridData[x, y]);
-                    sb.Append(',');
+                    sb.Append(gridData[x, y].ToString()[0]);
+                    //sb.Append(',');
                 }
-                sb.Length--;
+                //sb.Length--;
                 sb.AppendLine();
             }
             Debug.Log(sb.ToString());
@@ -180,6 +180,7 @@ namespace Centipede
         PoisonMushroom,
         Player,
         CentipedeHead,
-        CentipedeBody
+        CentipedeBody,
+        Bullet
     }
 }

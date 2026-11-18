@@ -72,7 +72,6 @@ namespace Centipede
         }
         private IEnumerator WalkRight(int y)
         {
-            Debug.Log("==== RIGHT ====");
             direction = -1;
             FaceRight();
             gridManager.Set(GameEntity.Empty, xpos, ypos); 
@@ -94,7 +93,6 @@ namespace Centipede
         }
         private IEnumerator WalkLeft(int y)
         {
-            Debug.Log("==== LEFT ====");
             direction = 1;
             FaceLeft();
             gridManager.Set(GameEntity.Empty, xpos, ypos); 
