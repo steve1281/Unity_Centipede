@@ -26,6 +26,8 @@ namespace Centipede
         float prevTime = 0;
         private void Update()
         {
+            GameEntity temp;
+
             if (prevTime + Time.deltaTime > speed)
             {
                 gridManager.Set(GameEntity.Empty, posx, 29-posy);
@@ -36,8 +38,21 @@ namespace Centipede
                 }
                 else
                 {
-                    gridManager.Set(GameEntity.Bullet, posx, 29 - posy);
-                    transform.position = new Vector3(posx, posy, 0);
+                    temp = gridManager.Get(posx, 29-posy);
+
+                    if (temp != GameEntity.Empty && temp != GameEntity.Player && temp != GameEntity.Bullet)
+                    {
+
+                        Debug.Log($"Bullet::Update Hit a: {temp}.");
+                        gridManager.Set(GameEntity.Empty, posx, 29 - posy);
+                        transform.position = new Vector3(posx, posy, 0);
+                        Destroy(gameObject);
+                    }
+                    else
+                    {
+                        gridManager.Set(GameEntity.Bullet, posx, 29 - posy);
+                        transform.position = new Vector3(posx, posy, 0);
+                    } 
                 }
                 prevTime = 0;
             } else
