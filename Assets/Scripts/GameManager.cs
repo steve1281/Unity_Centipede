@@ -118,7 +118,7 @@ namespace Centipede
         private void SpawnMushroom(GameObject mushroom)
         {
             int x = Random.Range(1, 29);
-            int y = Random.Range(0, 12);
+            int y = Random.Range(1, 12);
             if (gridManager.Get(x, y) == GameEntity.Empty) 
             { 
                 mushroom.transform.position = new Vector3(x, 29 - y, 0);
