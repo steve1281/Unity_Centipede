@@ -74,7 +74,7 @@ namespace Centipede
         {
             direction = -1;
             FaceRight();
-            gridManager.Set(GameEntity.Empty, xpos, ypos); 
+            gridManager.Set(GameEntity.Empty, xpos, ypos, null); 
             for (int x = xpos; x < 30; x++)
             {
                 // check if we can go to a spot
@@ -95,7 +95,7 @@ namespace Centipede
         {
             direction = 1;
             FaceLeft();
-            gridManager.Set(GameEntity.Empty, xpos, ypos); 
+            gridManager.Set(GameEntity.Empty, xpos, ypos, null); 
             for (int x = xpos; x >= 0; x--)
             {
                 if (gridManager.Get(x,y)==GameEntity.Mushroom)
@@ -113,12 +113,12 @@ namespace Centipede
         }
         public void Move(int x, int y)
         {
-            gridManager.Set(GameEntity.Empty, xpos, ypos);  // erase
+            gridManager.Set(GameEntity.Empty, xpos, ypos, null);  // erase
             if (nextSegment != null) nextSegment.Move(xpos, ypos); // call child, if any
             ypos = y;
             xpos = x;
             transform.position = new Vector3(xpos, 29 - ypos, 0);
-            gridManager.Set(GameEntity.CentipedeHead, xpos, ypos);
+            gridManager.Set(GameEntity.CentipedeHead, xpos, ypos, gameObject);
         }
         private void FaceLeft()
         {

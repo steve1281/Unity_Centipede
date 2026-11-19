@@ -122,7 +122,7 @@ namespace Centipede
             if (gridManager.Get(x, y) == GameEntity.Empty) 
             { 
                 mushroom.transform.position = new Vector3(x, 29 - y, 0);
-                gridManager.Set(GameEntity.Mushroom, x, y);
+                gridManager.Set(GameEntity.Mushroom, x, y, mushroom);
             }
         }
         private IEnumerator SpawnCentipedes()

@@ -43,7 +43,7 @@ namespace Centipede
         }
         public void MovePlayer()
         {
-            gridManager.Set(GameEntity.Empty, xpos, ypos);
+            gridManager.Set(GameEntity.Empty, xpos, ypos, null);
 
             Vector2 mouseScreenPos = Mouse.current.position.ReadValue();
             Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mouseScreenPos);
@@ -59,7 +59,7 @@ namespace Centipede
             if (gridManager.Get(Mathf.FloorToInt(gridPos.x), Mathf.FloorToInt(gridPos.y)) != GameEntity.Empty) 
             {
                 Debug.Log($"x:{gridPos.x}, y:{gridPos.y} Boink Boink!");
-                gridManager.Set(GameEntity.Player, xpos, ypos);
+                gridManager.Set(GameEntity.Player, xpos, ypos, gameObject);
                 if (gridManager.Get(Mathf.FloorToInt(gridPos.x), Mathf.FloorToInt(gridPos.y)) == GameEntity.CentipedeHead)
                 {
                     gameManager.DestroyPlayer();
@@ -70,7 +70,7 @@ namespace Centipede
             // update grid
             xpos = Mathf.FloorToInt(gridPos.x);
             ypos = Mathf.FloorToInt(gridPos.y);
-            gridManager.Set(GameEntity.Player, xpos, ypos);
+            gridManager.Set(GameEntity.Player, xpos, ypos, gameObject);
 
             // convert to realword coordinates
             gridPos.y = 29 - gridPos.y;

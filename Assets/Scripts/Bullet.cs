@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace Centipede
 {
@@ -19,7 +20,7 @@ namespace Centipede
         {
             posx = Mathf.FloorToInt(spawnPoint.position.x);
             posy = Mathf.FloorToInt(spawnPoint.position.y);
-            gridManager.Set(GameEntity.Bullet, posx, posy);
+            gridManager.Set(GameEntity.Bullet, posx, posy, gameObject);
             transform.position = new Vector3(posx, posy, 0);
         }
 
@@ -30,7 +31,7 @@ namespace Centipede
 
             if (prevTime + Time.deltaTime > speed)
             {
-                gridManager.Set(GameEntity.Empty, posx, 29-posy);
+                gridManager.Set(GameEntity.Empty, posx, 29-posy, null);
                 posy = posy + 1;
                 if (posy >= 29)
                 {
@@ -42,15 +43,18 @@ namespace Centipede
 
                     if (temp != GameEntity.Empty && temp != GameEntity.Player && temp != GameEntity.Bullet)
                     {
-
                         Debug.Log($"Bullet::Update Hit a: {temp}.");
-                        gridManager.Set(GameEntity.Empty, posx, 29 - posy);
+                        if (temp == GameEntity.Mushroom)
+                        {
+                            gridManager.GetGo(posx, 29 - posy).GetComponent<Mushroom>().Hit();  
+                        }
+                        gridManager.Set(GameEntity.Empty, posx, 29 - posy, null);
                         transform.position = new Vector3(posx, posy, 0);
                         Destroy(gameObject);
                     }
                     else
                     {
-                        gridManager.Set(GameEntity.Bullet, posx, 29 - posy);
+                        gridManager.Set(GameEntity.Bullet, posx, 29 - posy, gameObject);
                         transform.position = new Vector3(posx, posy, 0);
                     } 
                 }
@@ -66,5 +70,6 @@ namespace Centipede
             gameManager = FindAnyObjectByType<GameManager>();
             gridManager = FindAnyObjectByType<GridManager>();
         }
+
     }
 }

@@ -14,7 +14,8 @@ namespace Centipede
         [SerializeField] private GameObject spacerPrefab;
 
         private GameEntity[,] gridData = new GameEntity[Width, Height];
-        public void Set(GameEntity gameEntity, int x, int y)
+        private GameObject[,] gridGoData = new GameObject[Width, Height];
+        public void Set(GameEntity gameEntity, int x, int y, GameObject go) //=null)
         {
             if (x < 0) return;
             if (y < 0) return;
@@ -22,6 +23,9 @@ namespace Centipede
             if (x > Height - 1) return;
 
             gridData[x, y] = gameEntity; 
+            gridGoData[x, y] = go;
+            //if (go != null) Debug.Log($"GridManager::Set added a {go.name}");
+
         }
         public GameEntity Get(int x, int y)
         {
@@ -32,6 +36,16 @@ namespace Centipede
 
             return gridData[x, y];
         }
+        public GameObject GetGo(int x, int y)
+        {
+            if (x < 0) return null;
+            if (y < 0) return null;
+            if (x > Width - 1) return null;
+            if (x > Height - 1) return null; 
+
+            return gridGoData[x, y];
+        }
+
         public void Init()
         {
             for (int x = 0; x <Width; x++)

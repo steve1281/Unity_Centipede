@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7345524420423209813}
+  - component: {fileID: 1818213540401780677}
   - component: {fileID: 2953546628618098478}
   m_Layer: 0
   m_Name: Sprite
@@ -32,6 +33,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6122623281227415968}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1818213540401780677
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6843171644216152992}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6f005830e5bf87e4f8de8d23545e5648, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &2953546628618098478
 SpriteRenderer:
   serializedVersion: 3
@@ -101,6 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6122623281227415968}
+  - component: {fileID: 5804814791818808135}
   m_Layer: 0
   m_Name: Mushroom
   m_TagString: Untagged
@@ -124,3 +148,15 @@ Transform:
   - {fileID: 7345524420423209813}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5804814791818808135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8433019284250602696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5604cb38a9fe144af2375a4f562836, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
