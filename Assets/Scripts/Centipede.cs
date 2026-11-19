@@ -132,5 +132,17 @@ namespace Centipede
                     spriteTransform.rotation.y, 
                     180);
         }
+
+        public void Hit()
+        {
+            Debug.Log($"Centipede::Hit called.");
+            int posx = Mathf.FloorToInt(transform.position.x);
+            int posy = Mathf.FloorToInt(transform.position.y);
+
+            gridManager.Set(GameEntity.Empty, posx, 29 - posy, null);
+            Destroy(gameObject);
+
+            gameManager.AddMushroom(posx, posy, nextSegment);
+        }
     }
 }

@@ -53,6 +53,11 @@ namespace Centipede
                         {
                             gridManager.GetGo(posx, 29 - posy).GetComponent<Mushroom>().Hit();  
                         } else
+                        if (temp == GameEntity.CentipedeHead)
+                        {
+                            gridManager.GetGo(posx, 29 - posy).GetComponent<Centipede>().Hit();  
+
+                        } else
                         {
                             gridManager.Set(GameEntity.Empty, posx, 29 - posy, null);
                         }

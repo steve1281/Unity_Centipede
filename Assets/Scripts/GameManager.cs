@@ -178,6 +178,20 @@ namespace Centipede
                 temp[i].Promote();
             }
         }
+        public void AddMushroom(int x,  int y, Centipede c=null)
+        {
+            Debug.Log($"We need a mushroom at {x}, {y}.");
+
+            GameObject mushroom = Instantiate<GameObject>(mushroomPrefab);
+            mushroom.transform.position = new Vector3(x, y, 0);
+            gridManager.Set(GameEntity.Mushroom, x, 29-y, mushroom);
+            mushrooms.Add(mushroom);
+
+            if (c != null)
+            {
+                c.Promote();
+            }
+        }
     }
 /*
     [System.Serializable]
