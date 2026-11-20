@@ -14,7 +14,7 @@ namespace Centipede
         [SerializeField] private Centipede centipedePrefab;
 
         private int xpos = 0;
-        private int ypos = 0;
+        private int ypos = 1;
         public int direction = 1; // -1 is LEFT, 1 is RIGHT
 
         private int bodyCount = 0;
