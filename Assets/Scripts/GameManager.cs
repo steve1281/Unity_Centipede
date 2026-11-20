@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Collections;
@@ -31,6 +32,15 @@ namespace Centipede
         [SerializeField] private int mushroomCount = 1;
         private List<GameObject> mushrooms = new List<GameObject>();
 
+        [Header("UI Elements")]
+        [SerializeField] private TextMeshProUGUI ScoreText;
+        private int score = 0;
+
+        public void UpdateScore(int amount)
+        {
+            score = score + amount;
+        }
+
 
         private static GameManager instance;
         public static GameManager Instance { get => instance; private set => instance = value; } 
@@ -53,6 +63,8 @@ namespace Centipede
         }
         private void Update()
         {
+            ScoreText.text = score.ToString();
+
             //gridManager.TestMouseClickXY();
             if (player != null)
             {

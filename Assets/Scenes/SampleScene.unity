@@ -677,7 +677,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0.9}
-  m_AnchoredPosition: {x: 0, y: -5}
+  m_AnchoredPosition: {x: 17, y: -5}
   m_SizeDelta: {x: 0, y: -10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1617590898
@@ -766,7 +766,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 5.6140156}
+  m_margin: {x: 0, y: 0, z: 105.226074, w: 5.6140156}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -862,6 +862,7 @@ MonoBehaviour:
   centipedeSpawnDelay: 2
   mushroomPrefab: {fileID: 8433019284250602696, guid: 4ceb978aef67eb7499417d14e5a287fe, type: 3}
   mushroomCount: 10
+  ScoreText: {fileID: 1617590898}
 --- !u!4 &1917139946
 Transform:
   m_ObjectHideFlags: 0

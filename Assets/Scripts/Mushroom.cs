@@ -33,6 +33,7 @@ namespace Centipede
             } else if (hitCount == 3)
             {
                 gridManager.Set(GameEntity.Empty, posx, 29 - posy, null);
+                gameManager.UpdateScore(1);
                 Destroy(gameObject);
             }
         }
