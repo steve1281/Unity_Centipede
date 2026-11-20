@@ -49,6 +49,8 @@ namespace Centipede
             score = score + amount;
         }
 
+        bool goNextLevel = false;
+
 
         private static GameManager instance;
         public static GameManager Instance { get => instance; private set => instance = value; } 
@@ -216,10 +218,14 @@ namespace Centipede
                 c.Promote();
             }
         }
+        
         public void ScanForArtifacts()
         {
+            if (goNextLevel) return;
+
             // Create the list
             //List<GameObject> childObjects = new List<GameObject>();
+            bool flagCentipedes = false;
 
             // Loop through all direct children of gameElements
             foreach (Transform child in gameElements)
@@ -229,6 +235,7 @@ namespace Centipede
                 {
                     if (child.GetComponent<Centipede>() != null)
                     {
+                        flagCentipedes = true;
                         // ignore I guess?
                     } else
                     {
@@ -236,6 +243,15 @@ namespace Centipede
                         Destroy(child.gameObject);
                     }
                 }
+                if (child.GetComponent<Centipede>() != null)
+                {
+                    flagCentipedes = true;
+                }
+            }
+            if (!flagCentipedes)
+            {
+                Debug.Log($"GameManager:: ScanForArtifacts didnt find any centipedes.");
+                goNextLevel = true;
             }
         }
     }

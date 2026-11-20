@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &203286181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 203286182}
+  m_Layer: 0
+  m_Name: GameElements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203286182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203286181}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,12 +885,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f93621bbaff7c6942998001576ef7172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Centipede.GameManager
+  gameElements: {fileID: 203286182}
   playerPrefab: {fileID: 4423714986257879877, guid: e32dc70389e3a8947beee0cce06f2845, type: 3}
   minSpawnTime: 0.2
   maxSpawnTime: 0.8
   centipedePrefab: {fileID: 1410787043009960427, guid: 9b6b34b0536514544a9564016d304f44, type: 3}
   centipedeCount: 1
   centipedeSpawnDelay: 2
+  centipedeLength: 12
   mushroomPrefab: {fileID: 8433019284250602696, guid: 4ceb978aef67eb7499417d14e5a287fe, type: 3}
   mushroomCount: 10
   ScoreText: {fileID: 1617590898}
@@ -888,3 +921,4 @@ SceneRoots:
   - {fileID: 1775665303}
   - {fileID: 540710553}
   - {fileID: 1430596693}
+  - {fileID: 203286182}
