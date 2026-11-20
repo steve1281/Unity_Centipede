@@ -135,7 +135,17 @@ namespace Centipede
 
         public void Hit()
         {
-            Debug.Log($"Centipede::Hit called.");
+
+            Debug.Log($"Centipede::Hit called. Headshot: {headSprite.activeSelf}");
+            // update score
+            if (headSprite.activeSelf)
+            {
+                gameManager.UpdateScore(100); // headshot
+            } else
+            {
+                gameManager.UpdateScore(10); // bodyshot
+            }
+
             int posx = Mathf.FloorToInt(transform.position.x);
             int posy = Mathf.FloorToInt(transform.position.y);
 
