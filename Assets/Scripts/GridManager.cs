@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,6 +18,12 @@ namespace Centipede
         private GameObject[,] gridGoData = new GameObject[Width, Height];
         public void Set(GameEntity gameEntity, int x, int y, GameObject go) //=null)
         {
+            if (gridGoData[x, y] != null)
+            {
+                //Destroy(gridGoData[x, y]);
+                //return;
+            }
+
             if (x < 0) return;
             if (y < 0) return;
             if (x > Width  - 1) return;
@@ -46,6 +53,11 @@ namespace Centipede
             return gridGoData[x, y];
         }
 
+        public bool GoContains(GameObject gameEntity)
+        {
+            return gridGoData.Cast<GameObject>().Contains(gameEntity);
+        }
+
         public void Init()
         {
             for (int x = 0; x <Width; x++)
@@ -70,20 +82,57 @@ namespace Centipede
             return new Vector3(x, 29 - y, 0);
         }
 
+        private GameEntity MapToEnum(GameObject go)
+        {
+            if (go == null) return GameEntity.Empty;
+
+            if (go.name[0] == 'C') return GameEntity.CentipedeHead;
+            if (go.name[0] == 'M') return GameEntity.Mushroom;
+            if (go.name[0] == 'P') return GameEntity.Player;
+            if (go.name[0] == 'B') return GameEntity.Bullet;
+
+            return GameEntity.Empty;
+        }
         public void DumpGrid()
         {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb1 = new StringBuilder();
             for (int y = 0; y < Height; y++)
             {
                 for (int x = 0; x < Width; x++)
                 {
-                    sb.Append(gridData[x, y].ToString()[0]);
+                    sb1.Append(gridData[x, y].ToString()[0]);
                     //sb.Append(',');
                 }
                 //sb.Length--;
-                sb.AppendLine();
+                sb1.AppendLine();
             }
-            Debug.Log(sb.ToString());
+            Debug.Log(sb1.ToString());
+
+            StringBuilder sb2 = new StringBuilder();
+
+            sb2.Clear();
+            for (int y = 0; y < Height; y++)
+            {
+                for (int x = 0; x < Width; x++)
+                {
+                    if (gridGoData[x,y] != null) 
+                    {
+                        sb2.Append(gridGoData[x, y].ToString()[0]);
+                    } else
+                    {
+                        sb2.Append("E");
+                    }
+                    //sb.Append(',');
+                }
+                //sb.Length--;
+                sb2.AppendLine();
+            }
+            Debug.Log(sb2.ToString());
+
+            if (!sb1.Equals(sb2))
+            {
+                Debug.Log($"NOT THE SAME. ");
+            }
         }
 
         public void TestMouseClickXY()

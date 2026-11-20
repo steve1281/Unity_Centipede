@@ -11,6 +11,13 @@ namespace Centipede
 
         private GridManager gridManager;
 
+        [Header("Game Elements")]
+        [SerializeField] private Transform gameElements;
+        public Transform GetGameElements ()
+        {
+            return gameElements;
+        }
+
         [Header("Player")]
         [SerializeField] private Player playerPrefab;
         [SerializeField] private float minSpawnTime = 0.2f;
@@ -22,6 +29,7 @@ namespace Centipede
         [SerializeField] private Centipede centipedePrefab;
         [SerializeField] private int centipedeCount = 0;
         [SerializeField] private float centipedeSpawnDelay = 0.1f;
+        [SerializeField] private int centipedeLength = 0;
         private List<Centipede> centipedes = new List<Centipede>();
         //private List<CentipedeData> centipedeData = new List<CentipedeData>();
 
@@ -71,6 +79,8 @@ namespace Centipede
                 player.MovePlayer();
             }
 
+            // lets do a scan for gameObject artifacts
+            ScanForArtifacts();
         }
 
         private void OnEnable()
@@ -108,14 +118,14 @@ namespace Centipede
         }
         private void GeneratePlayer()
         {
-            player = Instantiate<Player>(playerPrefab);
+            player = Instantiate<Player>(playerPrefab,gameElements);
             player.transform.position = new Vector3(0, 0, 0);
         }
         private void GenerateMushrooms()
         {
             for (int i = 0; i < mushroomCount; i++)
             {
-                GameObject mushroom = Instantiate<GameObject>(mushroomPrefab);
+                GameObject mushroom = Instantiate<GameObject>(mushroomPrefab); // gameElements);
                 mushroom.transform.position = new Vector3(-1, 29, 0);
                 mushrooms.Add(mushroom);
             }
@@ -134,6 +144,8 @@ namespace Centipede
             if (gridManager.Get(x, y) == GameEntity.Empty) 
             { 
                 mushroom.transform.position = new Vector3(x, 29 - y, 0);
+                mushroom.transform.SetParent(gameElements.transform, true);
+
                 gridManager.Set(GameEntity.Mushroom, x, y, mushroom);
             }
         }
@@ -153,9 +165,9 @@ namespace Centipede
         private void GenerateCentipedes()
         {
             for (int i=0; i<centipedeCount; i++) { 
-                Centipede centipede = Instantiate<Centipede>(centipedePrefab);
+                Centipede centipede = Instantiate<Centipede>(centipedePrefab, gameElements);
                 centipede.transform.position = new Vector3(-1, 28, 0);
-                centipede.SetBodyCount(6);
+                centipede.SetBodyCount(centipedeLength);
                 centipedes.Add(centipede);
             }
         }
@@ -192,9 +204,9 @@ namespace Centipede
         }
         public void AddMushroom(int x,  int y, Centipede c=null)
         {
-            Debug.Log($"We need a mushroom at {x}, {y}.");
+            //Debug.Log($"We need a mushroom at {x}, {y}.");
 
-            GameObject mushroom = Instantiate<GameObject>(mushroomPrefab);
+            GameObject mushroom = Instantiate<GameObject>(mushroomPrefab, gameElements);
             mushroom.transform.position = new Vector3(x, y, 0);
             gridManager.Set(GameEntity.Mushroom, x, 29-y, mushroom);
             mushrooms.Add(mushroom);
@@ -202,6 +214,28 @@ namespace Centipede
             if (c != null)
             {
                 c.Promote();
+            }
+        }
+        public void ScanForArtifacts()
+        {
+            // Create the list
+            //List<GameObject> childObjects = new List<GameObject>();
+
+            // Loop through all direct children of gameElements
+            foreach (Transform child in gameElements)
+            {
+                //childObjects.Add(child.gameObject);
+                if (!gridManager.GoContains(child.gameObject))
+                {
+                    if (child.GetComponent<Centipede>() != null)
+                    {
+                        // ignore I guess?
+                    } else
+                    {
+                        Debug.Log($"GameManager:: ScanForArtifacts found a missing {child.name}.");
+                        Destroy(child.gameObject);
+                    }
+                }
             }
         }
     }

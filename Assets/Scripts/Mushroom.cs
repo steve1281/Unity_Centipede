@@ -19,7 +19,7 @@ namespace Centipede
             int posx = Mathf.FloorToInt(transform.position.x);
             int posy = Mathf.FloorToInt(transform.position.y); 
 
-            Debug.Log("Mushroom::Hit called.");
+            //Debug.Log("Mushroom::Hit called.");
             hitCount++;
 
             if (hitCount == 1)

@@ -31,8 +31,8 @@ namespace Centipede
             this.bodyCount = bodyCount;
             if (bodyCount >0)
             {
-                Centipede centipede = Instantiate<Centipede>(centipedePrefab);
-                centipede.transform.position = new Vector3(xpos-1, ypos, 0);
+                Centipede centipede = Instantiate<Centipede>(centipedePrefab, new Vector3(xpos - 1, ypos, 0), Quaternion.identity, gameManager.GetGameElements());
+                //centipede.transform.position = new Vector3(xpos-1, ypos, 0);
                 centipede.SetBodyCount(bodyCount-1);
                 centipede.Demote();
                 nextSegment = centipede;
@@ -47,7 +47,7 @@ namespace Centipede
 
         public void Promote( )
         {
-            Debug.Log("Centipede::Promote was called.");
+            //Debug.Log("Centipede::Promote was called.");
             bodySprite.SetActive(false);
             headSprite.SetActive(true);
             direction *= -1;
@@ -136,7 +136,7 @@ namespace Centipede
         public void Hit()
         {
 
-            Debug.Log($"Centipede::Hit called. Headshot: {headSprite.activeSelf}");
+            //Debug.Log($"Centipede::Hit called. Headshot: {headSprite.activeSelf}");
             // update score
             if (headSprite.activeSelf)
             {
