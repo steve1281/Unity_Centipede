@@ -64,6 +64,8 @@ namespace Centipede
             this.speed = speed;
             for (int y = ypos; y < 30; y+=2)
             {
+                if (this == null || gameObject == null)
+                    yield break;
                 if (direction == 1)  // right 
                     yield return StartCoroutine(WalkRight(y));
                 if (direction == -1) // left
@@ -81,7 +83,6 @@ namespace Centipede
                 // check if we can go to a spot
                 if (gridManager.Get(x,y)==GameEntity.Mushroom)
                 {
-                    Debug.Log("abandon going right.");
                     break; // we couldn't, abandon going right
                 }
                 if (gridManager.Get(x,y)== GameEntity.Player)
@@ -102,7 +103,6 @@ namespace Centipede
             {
                 if (gridManager.Get(x,y)==GameEntity.Mushroom)
                 {
-                    Debug.Log("abandon going left.");
                     break; // abandon doing left
                 }
                 if (gridManager.Get(x, y) == GameEntity.Player)

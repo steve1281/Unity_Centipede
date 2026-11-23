@@ -49,6 +49,7 @@ namespace Centipede
                 Vector3 newpos = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
                 transform.position = newpos;
                 newpos = PickNextWaypoint();
+
                 Move(newpos);
                 prevTime = 0;
             } else
@@ -64,6 +65,12 @@ namespace Centipede
             gridManager.Set(GameEntity.Empty, posx, 29 - posy, null); // remove old position
             posx = Mathf.FloorToInt(newpos.x);
             posy = Mathf.FloorToInt(newpos.y);
+            if (gridManager.Get(posx, 29 - posy) == GameEntity.Player)
+            {
+                Debug.Log("Spider::Move killed a player.");
+                // hit a player
+                gameManager.DestroyPlayer();
+            }
             gridManager.Set(GameEntity.Spider, posx, 29 - posy, gameObject);
             transform.position = new Vector3(posx, posy, 0);
 

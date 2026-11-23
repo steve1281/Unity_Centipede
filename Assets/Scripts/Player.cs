@@ -29,7 +29,7 @@ namespace Centipede
         {
             if (Keyboard.current.qKey.wasPressedThisFrame)
             {
-                gameManager.AddSpider(0,25);
+                //gameManager.AddSpider(0,25);
                 //gridManager.DumpGrid();
                 //gameManager.TestKillCentipedeHeads();
             }

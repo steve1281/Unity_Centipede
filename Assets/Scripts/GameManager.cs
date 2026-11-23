@@ -105,16 +105,25 @@ namespace Centipede
             gridManager = FindAnyObjectByType<GridManager>();
             player = FindAnyObjectByType<Player>();
 
-            /* add code to reload here */
-            //gridManager.TestDrawGrid();
-            //GeneratePlayer();
+            Init();
 
+            StartCoroutine(SpawnPlayer());
             GenerateMushrooms();
             SpawnMushrooms();
 
+        }
+
+        private void Init()
+        {
+            StopAllCoroutines();
+
+            Debug.Log("GameManager::Init ---== Starting A Level ==---");
+
             GenerateCentipedes();
             StartCoroutine(SpawnCentipedes());
-            StartCoroutine(SpawnPlayer());
+
+            AddSpider(1, 20);
+            goNextLevel = false;
         }
         private IEnumerator SpawnPlayer()
         {
@@ -157,6 +166,8 @@ namespace Centipede
         }
         private IEnumerator SpawnCentipedes()
         {
+            if (centipedes == null) yield return new WaitForSecondsRealtime(2.0f);
+
             for (int i = 0; i < centipedes.Count; i++)
             {
                 SpawnCentipede(centipedes[i]);
@@ -223,19 +234,18 @@ namespace Centipede
             }
         }
        
-        async public void AddSpider(int x, int y, float delay=1.6f)
+        async public void AddSpider(int x, int y, float delay=10.0f)
         {
+            if (goNextLevel) return;
+
             Debug.Log($"GameManager::AddSpider at {x},{y}");
 
             if (spider != null)
             {
-                Debug.Log("--- ==== SPIDER Already HERE ==== ---");
                 return;  // already has a spider
             }
 
-            Debug.Log("--- ==== SPIDER Incoming ==== ---");
             await Awaitable.WaitForSecondsAsync(delay);
-            Debug.Log("--- ==== SPIDER Is HERE ==== ---");
             spider = Instantiate<GameObject>(spiderPrefab, gameElements);
             spider.transform.position = new Vector3(x, 29-y, 0);
             gridManager.Set(GameEntity.Spider, x, y, spider);
@@ -245,14 +255,11 @@ namespace Centipede
         {
             if (goNextLevel) return;
 
-            // Create the list
-            //List<GameObject> childObjects = new List<GameObject>();
             bool flagCentipedes = false;
 
             // Loop through all direct children of gameElements
             foreach (Transform child in gameElements)
             {
-                //childObjects.Add(child.gameObject);
                 if (!gridManager.GoContains(child.gameObject))
                 {
                     if (child.GetComponent<Centipede>() != null)
@@ -265,7 +272,6 @@ namespace Centipede
                     }
                     else
                     {
-                        //Debug.Log($"GameManager:: ScanForArtifacts found a missing {child.name}.");
                         Destroy(child.gameObject);
                     }
                 }
@@ -278,6 +284,7 @@ namespace Centipede
             {
                 Debug.Log($"GameManager:: ScanForArtifacts didnt find any centipedes.");
                 goNextLevel = true;
+                Init();
             }
         }
         public void DestroySpider(int x, int y)
