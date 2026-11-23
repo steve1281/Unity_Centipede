@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Centipede
 {
-    public class Centipede : MonoBehaviour
+    public class Centipede : MonoBehaviour, IHittable
     {
         [SerializeField] private float speed = 0.2f;
         [SerializeField] private Transform spriteTransform;
@@ -77,9 +77,11 @@ namespace Centipede
             gridManager.Set(GameEntity.Empty, xpos, ypos, null); 
             for (int x = xpos; x < 30; x++)
             {
+                //Debug.Log($"You are about to hit {gridManager.Get(x,y)}");
                 // check if we can go to a spot
                 if (gridManager.Get(x,y)==GameEntity.Mushroom)
                 {
+                    Debug.Log("abandon going right.");
                     break; // we couldn't, abandon going right
                 }
                 if (gridManager.Get(x,y)== GameEntity.Player)
@@ -100,7 +102,8 @@ namespace Centipede
             {
                 if (gridManager.Get(x,y)==GameEntity.Mushroom)
                 {
-                    break; //boink
+                    Debug.Log("abandon going left.");
+                    break; // abandon doing left
                 }
                 if (gridManager.Get(x, y) == GameEntity.Player)
                 {

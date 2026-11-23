@@ -40,6 +40,10 @@ namespace Centipede
         [SerializeField] private int mushroomCount = 1;
         private List<GameObject> mushrooms = new List<GameObject>();
 
+        [Header("Spider")]
+        [SerializeField] private GameObject spiderPrefab;
+        private GameObject spider;
+
         [Header("UI Elements")]
         [SerializeField] private TextMeshProUGUI ScoreText;
         private int score = 0;
@@ -218,7 +222,25 @@ namespace Centipede
                 c.Promote();
             }
         }
-        
+       
+        async public void AddSpider(int x, int y, float delay=1.6f)
+        {
+            Debug.Log($"GameManager::AddSpider at {x},{y}");
+
+            if (spider != null)
+            {
+                Debug.Log("--- ==== SPIDER Already HERE ==== ---");
+                return;  // already has a spider
+            }
+
+            Debug.Log("--- ==== SPIDER Incoming ==== ---");
+            await Awaitable.WaitForSecondsAsync(delay);
+            Debug.Log("--- ==== SPIDER Is HERE ==== ---");
+            spider = Instantiate<GameObject>(spiderPrefab, gameElements);
+            spider.transform.position = new Vector3(x, 29-y, 0);
+            gridManager.Set(GameEntity.Spider, x, y, spider);
+        }
+
         public void ScanForArtifacts()
         {
             if (goNextLevel) return;
@@ -237,9 +259,13 @@ namespace Centipede
                     {
                         flagCentipedes = true;
                         // ignore I guess?
-                    } else
+                    } else if (child.name.StartsWith("Spider"))
                     {
-                        Debug.Log($"GameManager:: ScanForArtifacts found a missing {child.name}.");
+                        // temporary; ignore
+                    }
+                    else
+                    {
+                        //Debug.Log($"GameManager:: ScanForArtifacts found a missing {child.name}.");
                         Destroy(child.gameObject);
                     }
                 }
@@ -253,6 +279,20 @@ namespace Centipede
                 Debug.Log($"GameManager:: ScanForArtifacts didnt find any centipedes.");
                 goNextLevel = true;
             }
+        }
+        public void DestroySpider(int x, int y)
+        {
+            // need to determine what ZONE the spider was in
+            // add assign points 300, 600, 900 
+            // for now, just give 600
+            UpdateScore(600);
+
+            gridManager.Set(GameEntity.Empty, x, y, null);
+            Destroy(spider.gameObject);
+            spider = null;
+
+            // wait 2.1 seconds, respawn spider
+            AddSpider(0, 25, 2.1f);
         }
     }
 /*

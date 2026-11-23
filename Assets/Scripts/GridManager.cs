@@ -58,6 +58,10 @@ namespace Centipede
             return gridGoData.Cast<GameObject>().Contains(gameEntity);
         }
 
+        private void Awake()
+        {
+            Init();
+        }
         public void Init()
         {
             for (int x = 0; x <Width; x++)
@@ -240,6 +244,7 @@ namespace Centipede
     public enum GameEntity { 
         Empty, 
         Mushroom, 
+        Spider,
         PoisonMushroom,
         Player,
         CentipedeHead,

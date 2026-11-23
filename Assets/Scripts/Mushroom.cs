@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Centipede
 {
-    public class Mushroom : MonoBehaviour
+    public class Mushroom : MonoBehaviour, IHittable
     {
         private int hitCount = 0;
         private GameManager gameManager;

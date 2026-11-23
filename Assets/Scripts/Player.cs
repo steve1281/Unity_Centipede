@@ -29,7 +29,8 @@ namespace Centipede
         {
             if (Keyboard.current.qKey.wasPressedThisFrame)
             {
-                gridManager.DumpGrid();
+                gameManager.AddSpider(0,25);
+                //gridManager.DumpGrid();
                 //gameManager.TestKillCentipedeHeads();
             }
             if (Mouse.current.leftButton.wasPressedThisFrame)
@@ -56,14 +57,17 @@ namespace Centipede
             if (gridPos.x > 29) gridPos.x = 29;
 
             // check for collision
-            if (gridManager.Get(Mathf.FloorToInt(gridPos.x), Mathf.FloorToInt(gridPos.y)) != GameEntity.Empty) 
+            GameEntity temp = gridManager.Get(Mathf.FloorToInt(gridPos.x), Mathf.FloorToInt(gridPos.y));
+            
+            if (temp != GameEntity.Empty) 
             {
-                Debug.Log($"x:{gridPos.x}, y:{gridPos.y} Boink Boink!");
+                Debug.Log($"x:{gridPos.x}, y:{gridPos.y} Boink Boink! Hit {temp}");
                 gridManager.Set(GameEntity.Player, xpos, ypos, gameObject);
-                if (gridManager.Get(Mathf.FloorToInt(gridPos.x), Mathf.FloorToInt(gridPos.y)) == GameEntity.CentipedeHead)
+                if (temp == GameEntity.CentipedeHead)
                 {
                     gameManager.DestroyPlayer();
                 }
+
                 return;
             }
 
