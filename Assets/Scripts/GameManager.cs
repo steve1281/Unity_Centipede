@@ -108,9 +108,9 @@ namespace Centipede
             Init();
 
             StartCoroutine(SpawnPlayer());
+
             GenerateMushrooms();
             SpawnMushrooms();
-
         }
 
         private void Init()
@@ -118,6 +118,7 @@ namespace Centipede
             StopAllCoroutines();
 
             Debug.Log("GameManager::Init ---== Starting A Level ==---");
+
 
             GenerateCentipedes();
             StartCoroutine(SpawnCentipedes());
